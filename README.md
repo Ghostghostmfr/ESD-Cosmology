@@ -9,18 +9,18 @@ are fixed. Reproduction studies + theory derivations, all falsifiable.
 
 ## About
 
-The ESD framework is a **classical unified field theory** built as a
-**relational admissibility net** rather than a collection of separate
-sector models. A single covariant parent action
+The frameworks parent action (below)
+places the metric $g_{\mu\nu}$, the displacement scalar $D$, and the
+electromagnetic potential $A_\mu$ under one Lagrangian, fed by a fixed
+**closure pool** of five constants — all anchored on the golden ratio.
+
 
 $$
 \mathcal{S}_{\mathrm{ESD}}=\int d^4x\sqrt{-g}\left[\frac{R-2\Lambda_{\mathrm{eff}}}{16\pi G}-\frac{\alpha X_0}{2}\mathcal{F}(X/X_0)-V(D)-\tfrac14 Z(D)F_{\mu\nu}F^{\mu\nu}\right]+S_m[A^2(D)g_{\mu\nu},\psi_m]
 $$
 
-places the metric $g_{\mu\nu}$, the displacement scalar $D$, and the
-electromagnetic potential $A_\mu$ under one Lagrangian, fed by a fixed
-**closure pool** of five constants — all anchored on the golden ratio:
 
+Fixed **closure pool** of the five constants:
 | symbol | value | role |
 |---|---|---|
 | $\phi$ | $(1+\sqrt5)/2$ | discrete scaling, hierarchy clock |
@@ -39,8 +39,8 @@ and three carrier channels — Displacement (anchor / drive),
 Energy (bridge / transfer), Space (floor / completion) — that carry the
 same grammar from cosmological scales down through galactic dynamics.
 
-**What the framework is not:** not a theory of everything, not a
-completed quantum-gravity derivation, not a replacement for
+**What the framework is not:** a theory of everything, a
+completed quantum-gravity derivation, a replacement for
 observational studies/data. 
 
 This repository is the cosmology slice — the gravitational and
