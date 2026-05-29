@@ -1,0 +1,11 @@
+phi = 1.6180339887
+c (closure) = 0.5715870660
+s = 26.8885438200
+b = 15.9442719100
+a_0 (Route 2) = 1.201423e-10 m/s^2
+lambda_D = 2.317809e+27 m
+m_D = 1.331300e-05 1/Mpc
+R_H = 1.373322e+26 m
+lambda_D / R_H = 16.8774
+k-window min k/m_D = 7.511e-01
+k-window max k/m_D = 7.511e+06

@@ -1,0 +1,3 @@
+# Small reference data committed to the repo lives here.
+# Large data (e.g. Planck likelihood files) is download-on-demand
+# via scripts/download_data.py — never committed.

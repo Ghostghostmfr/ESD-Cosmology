@@ -1,0 +1,12 @@
+# Placeholder — scripts will be ported here during the audit pass.
+# Each phase/step script from the original `disco_eb_esd/` folder
+# gets:
+#   1. its hardcoded paths replaced with paths relative to the
+#      study root (or via env-var overrides);
+#   2. its constants reads switched from local literals to
+#      `from esd_core import ...`;
+#   3. any "Master Book" mentions replaced with
+#      "The Energy-Space-Displacement (ESD) Framework
+#       [HigginsonESDFramework2026]";
+#   4. an `if __name__ == '__main__':` entry-point that writes to
+#      `outputs/` or `figures_generated/`.

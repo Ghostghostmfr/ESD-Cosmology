@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the framework reference and the specific study you reproduce."
+type: software
+title: "ESD Cosmology — replication code for the Energy-Space-Displacement framework's cosmological predictions"
+authors:
+  - family-names: Higginson
+    given-names: James P.
+repository-code: "https://github.com/Ghostghostmfr/ESD-Cosmology"
+license: MIT
+version: "0.1.0"
+date-released: "2026-05-28"
+preferred-citation:
+  type: article
+  title: "The Energy-Space-Displacement Framework: A Relational Admissibility Net for Cross-Sector Physics"
+  authors:
+    - family-names: Higginson
+      given-names: James P.
+  year: 2026
+  doi: "10.5281/zenodo.20059909"
+  publisher:
+    name: Zenodo

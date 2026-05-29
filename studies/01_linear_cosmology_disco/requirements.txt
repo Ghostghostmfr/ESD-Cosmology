@@ -1,0 +1,33 @@
+# Study 01 - Linear-Cosmology and Galactic-Dynamics Closure
+#
+# Pin policy:
+#   - CPU baseline only.  GPU-accelerated DISCO-EB runs require a JAX
+#     install matched to your CUDA toolkit; see docker/base.Dockerfile
+#     and docs/replication_guide.md for the GPU path.
+#   - Lower bounds reflect the verified working environment (Python
+#     3.12, May 2026).  Upper bounds guard against ABI breaks that
+#     have historically affected this stack (NumPy 2.x, JAX 0.5.x).
+#   - DISCO-EB is not on PyPI; we pull it from upstream git at the
+#     pinned commit / tag below.  Update both this line and the
+#     corresponding entry in docker/base.Dockerfile together.
+
+# --- locked ESD core (this repo, editable install) ----------------------
+# Installed via `pip install -e .` from the repository root, not here.
+
+# --- numerics ------------------------------------------------------------
+numpy>=1.26,<2.1
+scipy>=1.11,<2
+matplotlib>=3.7,<4
+
+# --- JAX stack (CPU build; install jax[cuda12] for GPU) -----------------
+jax>=0.4.30,<0.5
+jaxlib>=0.4.30,<0.5
+diffrax>=0.5.0,<0.7
+equinox>=0.11,<0.13
+
+# --- linear-cosmology solver (upstream git, not on PyPI) ----------------
+# Pin to commit hash in production; tag/branch is acceptable for first cut.
+disco-eb @ git+https://github.com/ohahn/DISCO-EB.git@main
+
+# --- tests ---------------------------------------------------------------
+pytest>=7,<9

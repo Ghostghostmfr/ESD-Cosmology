@@ -1,0 +1,16 @@
+# Study 02 - SPARC BTFR slope test.
+#
+# Pure numpy / scipy / matplotlib.  No JAX, no Boltzmann solver, no
+# external compiled dependencies.  Runs identically on Windows, macOS,
+# and Linux.
+
+# --- locked ESD core (this repo, editable install) -----------------------
+# Installed via `pip install -e .` from the repository root, not here.
+
+# --- numerics ------------------------------------------------------------
+numpy>=1.26,<3
+scipy>=1.11,<2
+matplotlib>=3.7,<4
+
+# --- tests ---------------------------------------------------------------
+pytest>=7,<9

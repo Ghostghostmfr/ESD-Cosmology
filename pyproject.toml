@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esd_core"
+version = "0.1.0"
+description = "Shared locked constants and identities for the Energy-Space-Displacement (ESD) framework's replication studies."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "James P. Higginson" }]
+dependencies = [
+    "numpy>=1.24,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["esd_core*"]
+exclude = ["studies*", "docker*", "docs*"]
