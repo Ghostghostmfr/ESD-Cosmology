@@ -41,10 +41,7 @@ same grammar from cosmological scales down through galactic dynamics.
 
 **What the framework is not:** not a theory of everything, not a
 completed quantum-gravity derivation, not a replacement for
-observational data. It is an admissibility net that decides which
-relationships are permitted to persist when carried from one sector to
-the next, with **zero per-sector fit parameters** once *G* and *H*₀
-are fixed.
+observational studies/data. 
 
 This repository is the cosmology slice — the gravitational and
 large-scale-structure track of the full framework.
