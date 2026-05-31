@@ -1,0 +1,5 @@
+claim,value,target,verdict
+"1. R(u) at ISCO (chi=0.998, 10 Msun) <= 1e-15",1.041255273740306e-36,1e-15,PASS
+2. predicted Thorne bound chi_max = 0.998,0.998,0.998,PASS
+3. all observed chi <= Thorne bound,4/4,4/4,PASS
+4. h-blind |dR| at ISCO <= 1e-6,5.118484641884967e-37,1e-06,PASS

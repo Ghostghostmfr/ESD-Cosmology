@@ -1,0 +1,69 @@
+{
+  "study": "F14_des_y3_modified_gravity",
+  "esd_mu0": 0.0,
+  "esd_Sigma0": 0.0,
+  "per_survey": [
+    {
+      "survey": "Planck 2018 TT,TE,EE+lowE+lensing+BAO",
+      "mu0": -0.05,
+      "mu0_sigma": 0.25,
+      "Sigma0": 0.03,
+      "Sigma0_sigma": 0.05,
+      "mu0_tension": 0.2,
+      "Sigma0_tension": 0.6,
+      "ref": "Planck 2020 VI"
+    },
+    {
+      "survey": "DES Y3 3x2pt + Planck CMB",
+      "mu0": -0.04,
+      "mu0_sigma": 0.32,
+      "Sigma0": 0.04,
+      "Sigma0_sigma": 0.13,
+      "mu0_tension": 0.125,
+      "Sigma0_tension": 0.3076923076923077,
+      "ref": "DES Y3 MG 2023"
+    },
+    {
+      "survey": "KiDS-1000 cosmic shear + Planck",
+      "mu0": 0.02,
+      "mu0_sigma": 0.27,
+      "Sigma0": -0.01,
+      "Sigma0_sigma": 0.1,
+      "mu0_tension": 0.07407407407407407,
+      "Sigma0_tension": 0.09999999999999999,
+      "ref": "Asgari+ 2021 / Troester+ 2021"
+    },
+    {
+      "survey": "DES Y1 shear + Planck",
+      "mu0": -0.2,
+      "mu0_sigma": 0.4,
+      "Sigma0": 0.04,
+      "Sigma0_sigma": 0.15,
+      "mu0_tension": 0.5,
+      "Sigma0_tension": 0.26666666666666666,
+      "ref": "Joudaki+ 2018"
+    },
+    {
+      "survey": "CFHTLenS + Planck 2015",
+      "mu0": -0.1,
+      "mu0_sigma": 0.35,
+      "Sigma0": -0.02,
+      "Sigma0_sigma": 0.12,
+      "mu0_tension": 0.28571428571428575,
+      "Sigma0_tension": 0.16666666666666669,
+      "ref": "Joudaki+ 2017"
+    }
+  ],
+  "chi2": 0.9563080666130626,
+  "dof": 10,
+  "chi2_per_dof": 0.09563080666130626,
+  "mu0_within_2sig": 5,
+  "Sigma0_within_2sig": 5,
+  "gate1_study19_force_zero": true,
+  "gate2_chi2": true,
+  "gate3_mu0_2sig": true,
+  "gate4_Sigma0_2sig": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): ESD predicts mu_0 = Sigma_0 = 0 structurally - the linear-regime ESD = LCDM theorem (Study 19) plus the absence of a fifth-force coupling in the A^2(D) g_munu parent action (Master Ch.3) forces both phenomenological MG parameters to zero with no free dial. The 5-survey compilation (Planck 2018, DES Y3 3x2pt, KiDS-1000, DES Y1, CFHTLenS) gives chi^2/dof = 0.10; all 5 mu_0 and 5 Sigma_0 measurements are within 2 sigma of zero. ESD is structurally consistent with the LCDM null-hypothesis line of the (mu_0, Sigma_0) plane."
+}

@@ -1,0 +1,41 @@
+{
+  "claims": [
+    {
+      "claim": "1. WL inverse-variance joint S_8 reproduces ~0.772",
+      "metric": "|S_8_joint - 0.772|",
+      "value": 0.00011943936624014828,
+      "target": 0.02,
+      "gate": "<= 0.02",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. Planck-vs-WL tension reproduced",
+      "metric": "|Planck - WL_joint| / sqrt(err_p^2+err_w^2)",
+      "value": 3.542253409828577,
+      "target": 2.0,
+      "gate": ">= 2.0 sigma",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. ESD-locked Omega_m matches Planck (tension axis = sigma_8 only)",
+      "metric": "|Omega_ESD - Omega_Planck| / Omega_Planck",
+      "value": 0.00020120101646770735,
+      "target": 0.02,
+      "gate": "<= 0.02",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blindness of S_8 normalization (Thm 1 via Identity B)",
+      "metric": "|S_8(h_lo) - S_8(h_hi)| for fixed sigma_8",
+      "value": 0.0,
+      "target": 1e-15,
+      "gate": "<= 1e-15",
+      "verdict": "PASS"
+    }
+  ],
+  "fails": [],
+  "wl_joint_S8": 0.7718805606337599,
+  "wl_joint_err": 0.010911085999310005,
+  "planck_wl_tension_sigma": 3.542253409828577,
+  "omega_m_match": 0.00020120101646770735
+}

@@ -1,0 +1,75 @@
+{
+  "claims": [
+    {
+      "claim": "1. EFE reduction factor >= 1.3 across DF2/DF4/NGC5846",
+      "value": 1.3252965171689561,
+      "target": 1.3,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. NGC 5846-UDG1 EFE within 3 sigma",
+      "value": 2.490846064591122,
+      "target": 3.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. DF44 honest tension (>= 3 sigma)",
+      "value": 6.947851242931833,
+      "target": 3.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blindness of sigma_ESD (Thm 1, C1)",
+      "value": 0.0,
+      "target": 1e-20,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "label": "NGC 1052-DF2",
+      "dm_class": "DM-free",
+      "sigma_obs": 7.8,
+      "sigma_err": 1.7,
+      "sigma_esd_no_efe": 31.477036623159073,
+      "sigma_esd_efe": 22.640227371754875,
+      "resid_no_efe": 13.927668601858278,
+      "resid_efe": 8.729545512796985,
+      "efe_reduction": 1.595463198105922
+    },
+    {
+      "label": "NGC 1052-DF4",
+      "dm_class": "DM-free",
+      "sigma_obs": 4.2,
+      "sigma_err": 1.4,
+      "sigma_esd_no_efe": 29.59467944131216,
+      "sigma_esd_efe": 23.3615077172007,
+      "resid_no_efe": 18.139056743794402,
+      "resid_efe": 13.686791226571929,
+      "efe_reduction": 1.3252965171689561
+    },
+    {
+      "label": "NGC 5846-UDG1",
+      "dm_class": "DM-poor",
+      "sigma_obs": 17.0,
+      "sigma_err": 2.0,
+      "sigma_esd_no_efe": 26.817965401216338,
+      "sigma_esd_efe": 12.018307870817756,
+      "resid_no_efe": 4.908982700608169,
+      "resid_efe": -2.490846064591122,
+      "efe_reduction": 1.9708093448215513
+    },
+    {
+      "label": "Dragonfly 44",
+      "dm_class": "DM-rich",
+      "sigma_obs": 33.0,
+      "sigma_err": 3.0,
+      "sigma_esd_no_efe": 33.83876469833684,
+      "sigma_esd_efe": 12.156446271204501,
+      "resid_no_efe": 0.2795882327789461,
+      "resid_efe": -6.947851242931833,
+      "efe_reduction": 0.04024096414893396
+    }
+  ],
+  "fails": []
+}

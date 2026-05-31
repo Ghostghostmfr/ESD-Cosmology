@@ -1,0 +1,21 @@
+=== Study 02: Full BTFR residual analysis ===
+  Reproducing Higginson 2026 (DOI 10.5281/zenodo.20400008)
+
+  Sample:   N = 129    (published: 129)  OK 
+  Locked a_0 = 1.2015e-10 m/s^2
+  g_N source: rotation-curve 129, point-mass 0, skipped 0
+  u range: [0.034, 8.370]
+  G(u) range: [1.012, 3.564]
+
+  --- ESD closure (zero free parameters) ---
+  mean residual : -0.018 dex   (published: -0.017)  OK 
+  RMS residual  : 0.268 dex    (published: 0.268)    OK 
+  effective alpha: 3.84        (published: 3.84)         OK 
+
+  --- MOND deep limit (G(u) = 1) ---
+  mean residual : +0.102 dex   (published: +0.103)  OK 
+  RMS residual  : 0.283 dex    (published: 0.283)    OK 
+
+  observed best-fit alpha: 3.75
+
+  overall reproduction within tolerance: True

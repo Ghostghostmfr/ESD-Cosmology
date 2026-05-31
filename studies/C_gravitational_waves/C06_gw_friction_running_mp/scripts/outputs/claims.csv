@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. predicted |alpha_M| <= 1e-12 (tensor = GR),0.0,1e-12,PASS
+2. dL_GW/dL_EM at GW170817 within 1 sigma of 1,0.5596647097536793,1.0,PASS
+3. predicted alpha_M inside LVK O3 90% CL,0.0,6.6,PASS
+4. h-blind |d alpha_M| <= 1e-12,0.0,1e-12,PASS

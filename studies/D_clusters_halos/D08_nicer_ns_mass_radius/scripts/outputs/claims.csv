@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. max R(u) at NS surface <= 1e-15,7.540254574123563e-35,1e-15,PASS
+2. median |dR|/R <= 0.15,0.10028366197183111,0.15,PASS
+3. max nsigma on R <= 2,1.4420536708860776,2.0,PASS
+4. h-blind |dR(u)| <= 1e-6,3.400043077247202e-35,1e-06,PASS

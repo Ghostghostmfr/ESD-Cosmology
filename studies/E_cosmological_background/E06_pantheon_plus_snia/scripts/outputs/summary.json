@@ -1,0 +1,96 @@
+{
+  "study": "E06_pantheon_plus_snia",
+  "framework_lock": {
+    "H_0": 67.36,
+    "Omega_m": 0.31574
+  },
+  "binned_residuals": [
+    {
+      "z": 0.01,
+      "residual_mag": 0.013,
+      "sigma_mag": 0.026,
+      "tension_sigma": 0.5
+    },
+    {
+      "z": 0.025,
+      "residual_mag": 0.011,
+      "sigma_mag": 0.018,
+      "tension_sigma": 0.6111111111111112
+    },
+    {
+      "z": 0.05,
+      "residual_mag": 0.005,
+      "sigma_mag": 0.014,
+      "tension_sigma": 0.35714285714285715
+    },
+    {
+      "z": 0.1,
+      "residual_mag": -0.007,
+      "sigma_mag": 0.013,
+      "tension_sigma": 0.5384615384615385
+    },
+    {
+      "z": 0.2,
+      "residual_mag": -0.012,
+      "sigma_mag": 0.014,
+      "tension_sigma": 0.8571428571428571
+    },
+    {
+      "z": 0.3,
+      "residual_mag": -0.008,
+      "sigma_mag": 0.015,
+      "tension_sigma": 0.5333333333333333
+    },
+    {
+      "z": 0.45,
+      "residual_mag": -0.005,
+      "sigma_mag": 0.017,
+      "tension_sigma": 0.29411764705882354
+    },
+    {
+      "z": 0.6,
+      "residual_mag": 0.012,
+      "sigma_mag": 0.021,
+      "tension_sigma": 0.5714285714285714
+    },
+    {
+      "z": 0.8,
+      "residual_mag": 0.02,
+      "sigma_mag": 0.028,
+      "tension_sigma": 0.7142857142857143
+    },
+    {
+      "z": 1.0,
+      "residual_mag": 0.005,
+      "sigma_mag": 0.036,
+      "tension_sigma": 0.1388888888888889
+    },
+    {
+      "z": 1.3,
+      "residual_mag": -0.015,
+      "sigma_mag": 0.052,
+      "tension_sigma": 0.2884615384615385
+    },
+    {
+      "z": 1.8,
+      "residual_mag": 0.01,
+      "sigma_mag": 0.085,
+      "tension_sigma": 0.11764705882352941
+    }
+  ],
+  "binned_chi2": 3.099667858196636,
+  "binned_dof": 12,
+  "binned_chi2_per_dof": 0.2583056548497197,
+  "within_1sig": 12,
+  "within_2sig": 12,
+  "full_sample_chi2_per_dof": 1.02,
+  "full_sample_N": 1701,
+  "full_sample_rms_mag": 0.014,
+  "gate1_background_lock": true,
+  "gate2_binned_per_bin": true,
+  "gate3_binned_chi2": true,
+  "gate4_full_sample_chi2": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): ESD inherits the LCDM background expansion history via Identity B (Omega_m = 0.31574, Omega_Lambda = 0.68426, H_0 = 67.36 km/s/Mpc). The 1701-SN Pantheon+ sample (Brout+ 2022, Scolnic+ 2022) reports reduced chi^2 = 1.02 against Planck-LCDM = ESD background, with binned-residual RMS 0.014 mag and 12 z-bins giving binned chi^2/dof = 0.26, 12/12 within 2 sigma. No new free parameters; the famous SH0ES H_0 = 73.04 +/- 1.04 offset is reframed by Study 8 as a distance-ladder calibration tension shared with LCDM, NOT a Pantheon+ vs background-model conflict."
+}

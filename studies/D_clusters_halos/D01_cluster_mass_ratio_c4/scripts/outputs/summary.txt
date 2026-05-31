@@ -1,0 +1,32 @@
+=== Study 10: ESD cluster ratio C4 audit ===
+
+  Reproduces child C4 of the published Hubble paper
+  (Higginson 2026, Zenodo 10.5281/zenodo.20400097).
+
+  Locked: phi=1.61803  q=0.59481  c=0.57159
+          b=15.9443  s=26.8885
+  Omega_DM / Omega_b = 5.3029
+
+  claim                                                    value        target   verdict
+  --------------------------------------------------------------------------------------
+  1a. C4 vs direct R_500c f_b (max pull)                  0.8146             0      PASS
+    3 R_500c samples (X-COP, Planck-SZ, CHEX-MATE)    [gate: max |pull| <= 2.0]
+  1b. C4 vs R_200c extrapolations (max pull)               2.515             0      PASS
+    2 R_200c samples (model-dependent extrap.)    [gate: max |pull| <= 3.0]
+  2. h-blindness of C4 (Thm 1)                                 0             0      PASS
+    M_tot/M_b = 7.4878    [gate: |dr/dh| <= 1e-12]
+  3. cosmic asymptote f_b(u->inf) = Omega_b/Omega_m        0.1587        0.1587      PASS
+    rel_err = -8.353e-10    [gate: |rel_err| <= 0.001]
+
+  --- per-sample comparison ---
+    sample                                        u_cl    R(u)   fb_pred    fb_obs    pull
+    X-COP (12 nearby clusters)                    1.61   1.123    0.1347    0.1310   -0.73
+    X-COP extrapolated to R_200c                  0.68   1.953    0.1211    0.1460   +2.49
+    Planck SZ baryon census                       1.65   1.107    0.1350    0.1260   -0.81
+    CHEX-MATE relaxed subset                      1.65   1.107    0.1350    0.1350   +0.00
+    XMM Cluster Outskirts Project (XCOP-extreme)    0.84   1.709    0.1248    0.1550   +2.52
+
+  Cosmic asymptote: f_b(u->inf) = 0.158658
+                     Omega_b/Omega_m = 0.158658
+
+  ===> ALL 4 C4 CLAIMS REPRODUCED

@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. EFE reduction factor >= 1.3 across DF2/DF4/NGC5846,1.3252965171689561,1.3,PASS
+2. NGC 5846-UDG1 EFE within 3 sigma,2.490846064591122,3.0,PASS
+3. DF44 honest tension (>= 3 sigma),6.947851242931833,3.0,PASS
+"4. h-blindness of sigma_ESD (Thm 1, C1)",0.0,1e-20,PASS

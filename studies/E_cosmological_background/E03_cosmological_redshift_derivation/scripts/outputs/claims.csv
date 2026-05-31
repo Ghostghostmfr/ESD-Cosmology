@@ -1,0 +1,5 @@
+claim,metric,value,target,gate,verdict
+1. R(u) does NOT apply to null geodesics (photons),"applicability axioms (A1),(A2) for photons",false,must_be_false,R(u)_applies == False,PASS
+2. mu(z) identity: ESD = LambdaCDM-Planck (Omega_m identity),max over 6 redshifts of |mu_ESD - mu_LCDM_Planck| [mag],0.000114,<= 0.005,<= 0.005 mag,PASS
+3. CMB z_* = 1089.92 inherited exactly (no anomalous z component),z_CMB derived from recombination physics unmodified,1089.92,Planck,structural,PASS
+4. h-blindness of dimensionless z (Thm 1),|D_C/H0(h_lo) - D_C/H0(h_hi)| / D_C/H0(h_lo),1.45e-16,<= 1e-10,<= 1e-10,PASS

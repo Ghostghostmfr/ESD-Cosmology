@@ -1,0 +1,10 @@
+obs,value
+test M (Msun),62.0
+g_horizon (m/s2),245362445921.8195
+R(u) at horizon,9.439438090998141e-35
+scalar/tensor amplitude ESD,0.0
+remnant scalar charge ESD,0.0
+|A_scalar - 0| bound,9.439438090998141e-35
+scalar ell=0 QNM freq (Hz) [would-be],57.55100239268585
+scalar ell=0 1/tau (1/s) [would-be],343.40475806653114
+max scalar-mode significance (data),0.0

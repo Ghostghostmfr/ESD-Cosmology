@@ -1,0 +1,5 @@
+quantity,computed,published,within_tolerance
+N_pts,3389,3449,True
+delta_mean_esd,-0.032219034909641044,0.0,True
+delta_mean_mond,-0.033636779512300305,0.0,True
+delta_chi2_fixed,-587.8775366171321,-588.0,True

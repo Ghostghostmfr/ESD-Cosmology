@@ -1,0 +1,5 @@
+object,channel,M_Msun,chi,chi_err,ref,R_at_ISCO,inside_Thorne
+GRS 1915+105,X-ray reflection,12.4,0.98,0.01,McClintock+ 2006,3.488600023213258e-36,True
+MCG-6-30-15,X-ray reflection,4500000.0,0.97,0.02,Brenneman & Reynolds 2006,4.3872491644293915e-27,True
+GW150914 remnant,GW ringdown,62.0,0.67,0.05,Abbott+ 2016,5.924768407475303e-34,True
+GWTC-3 max,GW ringdown,90.0,0.87,0.1,Abbott+ 2023 PRX 13 011048,3.612667091789007e-34,True

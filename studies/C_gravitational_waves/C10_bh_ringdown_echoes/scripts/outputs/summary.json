@@ -1,0 +1,95 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at BH horizon (62 Msun) <= 1e-12",
+      "value": 9.439438090998141e-35,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. ESD classical-horizon: reflectivity = echo amp = 0 (bound <= 1e-12)",
+      "value": 9.439438090998141e-35,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. ESD reflectivity 0 inside all echo-search upper bounds",
+      "value": "3/3",
+      "target": "3/3",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. no confirmed (>=5 sigma) echo detection in data",
+      "value": "2.5 sigma",
+      "target": "< 5 sigma",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "5. h-blind |dR| at horizon <= 1e-6",
+      "value": 4.6401319748655676e-35,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "obs": "test M (Msun)",
+      "value": 62.0
+    },
+    {
+      "obs": "g_horizon (m/s2)",
+      "value": 245362445921.8195
+    },
+    {
+      "obs": "R(u) at horizon",
+      "value": 9.439438090998141e-35
+    },
+    {
+      "obs": "wall reflectivity ESD",
+      "value": 0.0
+    },
+    {
+      "obs": "echo amplitude ESD",
+      "value": 0.0
+    },
+    {
+      "obs": "|R_wall - 0| bound",
+      "value": 9.439438090998141e-35
+    },
+    {
+      "obs": "Planck-surface echo delay (s) [would-be]",
+      "value": 0.055920602122204614
+    },
+    {
+      "obs": "max echo significance (data)",
+      "value": 2.5
+    }
+  ],
+  "searches": [
+    {
+      "search": "Abedi+ 2017 (GW150914/151226/170104)",
+      "R_wall_upper": 1.0,
+      "sigma_claim": 2.5,
+      "ref": "Abedi, Dykaar & Afshordi 2017 PRD 96 082004",
+      "R_wall_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "search": "Westerweck+ 2018 (re-analysis)",
+      "R_wall_upper": 1.0,
+      "sigma_claim": 1.0,
+      "ref": "Westerweck+ 2018 PRD 97 124037",
+      "R_wall_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "search": "LVK TGR O3 (Isi+ / Abbott+ 2021)",
+      "R_wall_upper": 1.0,
+      "sigma_claim": 1.0,
+      "ref": "Abbott+ 2021 PRD 103 122002",
+      "R_wall_ESD": 0.0,
+      "inside_bound": true
+    }
+  ],
+  "fails": []
+}

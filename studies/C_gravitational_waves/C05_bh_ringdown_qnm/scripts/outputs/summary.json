@@ -1,0 +1,55 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at photon sphere <= 1e-12",
+      "value": 3.3032615048217364e-33,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. f220 within 1 sigma",
+      "value": 0.15156230507939733,
+      "target": 1.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. tau220 within 1 sigma",
+      "value": 0.016514274235723613,
+      "target": 1.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind |df220| <= 1e-6 Hz",
+      "value": 0.0,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "obs": "g_photon (m/s2)",
+      "value": 109049975965.2531
+    },
+    {
+      "obs": "R(u) photon",
+      "value": 3.3032615048217364e-33
+    },
+    {
+      "obs": "f220 pred (Hz)",
+      "value": 249.84797087463457
+    },
+    {
+      "obs": "f220 obs (Hz)",
+      "value": 251.5
+    },
+    {
+      "obs": "tau220 pred (ms)",
+      "value": 4.03467997589502
+    },
+    {
+      "obs": "tau220 obs (ms)",
+      "value": 4.0
+    }
+  ],
+  "fails": []
+}

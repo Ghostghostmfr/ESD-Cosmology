@@ -1,0 +1,44 @@
+{
+  "gate1_criterion": "|Delta_chi2_BAO| <= 5.0",
+  "gate1_delta_chi2_bao": -0.014325550801476794,
+  "gate1_verdict": "PASS",
+  "gate2_criterion": "Delta_chi2_2D < 11.83",
+  "gate2_delta_chi2_2d": 9.174457503589927,
+  "gate2_tension_sigma": 2.5696192829736173,
+  "gate2_verdict": "PASS",
+  "sn_arm_active": false,
+  "n_sn_bins": 0,
+  "esd_primary": {
+    "H0": 67.36,
+    "Omega_m": 0.3157364607189995,
+    "Omega_b": 0.0493,
+    "w0": -1.0,
+    "wa": 0.0,
+    "chi2_bao": 20.906041583360533,
+    "chi2_cmb": 0.5704432015200838,
+    "chi2_total": 21.47648478488062,
+    "R_model": 1.751678109623744,
+    "l_A_model": 301.8001207053899,
+    "omega_b_model": 0.022369232127999995
+  },
+  "planck_lcdm_bao_chi2": 20.92036713416201,
+  "best_fit_cpl": {
+    "w0": -0.7166666666666666,
+    "wa": -1.0833333333333335,
+    "H0": 67.27007248746219,
+    "chi2_min": 12.302027281290691
+  },
+  "grid": {
+    "w0_min": -2.0,
+    "w0_max": 0.2,
+    "nw0": 121,
+    "wa_min": -3.5,
+    "wa_max": 1.5,
+    "nwa": 121
+  },
+  "honest_negative": {
+    "tension_sigma": 2.5696192829736173,
+    "reference_desi_y1_cmb_tension_sigma": 2.3,
+    "note": "DESI Y1 + Planck CMB prefer CPL over LCDM at ~2.3 sigma (arXiv:2404.03002 Table 4). ESD predicts w0=-1, wa=0 (same as LCDM for this sector). Decisive test: DESI Y3/Y5 + Euclid Y1 (expected ~5x improvement in w0-wa precision)."
+  }
+}

@@ -1,0 +1,5 @@
+claim,value,target,units,metric,gate,verdict
+1a. C4 vs direct R_500c f_b (max pull),0.8146178042319965,0.0,sigma,"3 R_500c samples (X-COP, Planck-SZ, CHEX-MATE)",max |pull| <= 2.0,PASS
+1b. C4 vs R_200c extrapolations (max pull),2.5152294983980275,0.0,sigma,2 R_200c samples (model-dependent extrap.),max |pull| <= 3.0,PASS
+2. h-blindness of C4 (Thm 1),0.0,0.0,d ln (M_tot/M_b) / d h,M_tot/M_b = 7.4878,|dr/dh| <= 1e-12,PASS
+3. cosmic asymptote f_b(u->inf) = Omega_b/Omega_m,0.15865827120984669,0.1586582713423674,dimensionless,rel_err = -8.353e-10,|rel_err| <= 0.001,PASS

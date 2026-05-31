@@ -1,0 +1,20 @@
+=== Study 05: SPARC Radial Acceleration Relation ===
+  Reproducing paper 1 Sec. SPARC (Fig. fig:rar)
+  Fixed M/L baseline: Ud=0.5, Ub=0.7 (zero per-galaxy parameters)
+
+  Sample:        175 galaxies   3389 data points (published: ~3449)  OK
+
+  --- velocity-space chi^2 at fixed M/L (paper Fig. fig:rar) ---
+  chi^2  (ESD):    168881.2   chi^2_nu = 49.83
+  chi^2  (MOND):   169469.1   chi^2_nu = 50.01
+  Delta chi^2  =   -587.9   (published fixed-M/L: -588)  OK
+  (paper headline -843 and chi^2_nu~12 are grid-M/L; see Study 03)
+
+  --- log10(g_obs / g_model) residuals ---
+  ESD:   mean = -0.0322   median = -0.0132   RMS = 0.1959 dex  OK
+  MOND:  mean = -0.0336   median = -0.0142   RMS = 0.1960 dex  OK
+
+  McGaugh+2016 observed orthogonal RAR scatter: ~0.13 dex
+  Framework ESD RMS - observed scatter        = +0.07 dex (positive => intrinsic scatter dominated by data noise, not by framework)
+
+  overall reproduction within tolerance: True

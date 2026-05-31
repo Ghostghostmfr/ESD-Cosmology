@@ -1,0 +1,119 @@
+{
+  "claims": [
+    {
+      "claim": "1. Newton excluded at deep regime (s=10 kAU)",
+      "value": 1.7309681288383358,
+      "target": 1.2,
+      "units": "dimensionless",
+      "metric": "gamma_ESD(10 kAU, 1.5 Msun) = 1.731",
+      "gate": "> 1.2",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. ESD reproduces MOND simple-nu",
+      "value": 0.007417188095857343,
+      "target": 0.0,
+      "units": "max rel. diff",
+      "metric": "max|\u03b3_ESD - \u03b3_MOND|/\u03b3_MOND over 1-14 kAU",
+      "gate": "<= 5%",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. h-blindness of \u03b3_g (Thm 1 via a_0)",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "dimensionless per h",
+      "metric": "\u03b3_g(10 kAU) = 1.7310",
+      "gate": "<= 1e-20",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4a. Chae 2023 intermediate (s <= 10 kAU)",
+      "value": 2.1238513096825717,
+      "target": 0.0,
+      "units": "max |resid|/\u03c3",
+      "metric": "max over 5 bins of |\u03b3_ESD - \u03b3_obs|/\u03c3 in 1-10 kAU",
+      "gate": "<= 3.0\u03c3",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4b. Chae 2023 deep regime (s > 10 kAU)",
+      "value": 7.7093744804292,
+      "target": 0.0,
+      "units": "max |resid|/\u03c3",
+      "metric": "max over deep bin(s) of |\u03b3_ESD - \u03b3_obs|/\u03c3 (known MOND tension)",
+      "gate": "<= 10.0\u03c3",
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "s_kAU_mid": 1.0,
+      "gamma_obs": 1.02,
+      "gamma_err": 0.04,
+      "gamma_ESD": 1.0025725902520914,
+      "residual": -0.017427409747908573,
+      "residual_sigma": -0.43568524369771433,
+      "n_pairs": 5000
+    },
+    {
+      "s_kAU_mid": 2.0,
+      "gamma_obs": 1.05,
+      "gamma_err": 0.05,
+      "gamma_ESD": 1.0212355490141865,
+      "residual": -0.028764450985813594,
+      "residual_sigma": -0.5752890197162719,
+      "n_pairs": 6500
+    },
+    {
+      "s_kAU_mid": 4.0,
+      "gamma_obs": 1.12,
+      "gamma_err": 0.05,
+      "gamma_ESD": 1.1321512040894839,
+      "residual": 0.01215120408948378,
+      "residual_sigma": 0.2430240817896756,
+      "n_pairs": 5800
+    },
+    {
+      "s_kAU_mid": 6.0,
+      "gamma_obs": 1.3,
+      "gamma_err": 0.06,
+      "gamma_ESD": 1.3101550248202523,
+      "residual": 0.010155024820252212,
+      "residual_sigma": 0.1692504136708702,
+      "n_pairs": 4200
+    },
+    {
+      "s_kAU_mid": 8.5,
+      "gamma_obs": 1.42,
+      "gamma_err": 0.07,
+      "gamma_ESD": 1.56866959167778,
+      "residual": 0.14866959167778004,
+      "residual_sigma": 2.1238513096825717,
+      "n_pairs": 2900
+    },
+    {
+      "s_kAU_mid": 14.0,
+      "gamma_obs": 1.48,
+      "gamma_err": 0.09,
+      "gamma_ESD": 2.173843703238628,
+      "residual": 0.693843703238628,
+      "residual_sigma": 7.7093744804292,
+      "n_pairs": 1700
+    }
+  ],
+  "fails": [],
+  "inputs": {
+    "a_0_locked": 1.2014540354076285e-10,
+    "M_tot_msun": 1.5,
+    "closure_pool": {
+      "p": 1.618033988749895,
+      "q": 0.5948105273504066,
+      "s": 26.88854381999832,
+      "b": 15.944271909999163,
+      "c": 0.5715870659509185
+    },
+    "gamma_deep_chae": 1.43,
+    "gamma_deep_chae_err": 0.06
+  }
+}

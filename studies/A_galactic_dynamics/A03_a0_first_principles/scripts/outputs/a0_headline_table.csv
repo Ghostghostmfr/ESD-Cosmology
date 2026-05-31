@@ -1,0 +1,10 @@
+quantity,computed,published,within_tolerance
+paper_coefficient,0.18292710784646163,0.18288,True
+a0_planck_paper_mode,1.1978871125649554e-10,1.198e-10,True
+milgrom_2pi_coincidence,1.0422165280763669e-10,,True
+fb_best_fit_to_RAR,0.35353500000000004,0.354,True
+framework_coefficient_IdB,0.18358075598782594,0.18358,True
+a0_planck_framework_mode,1.202167487922716e-10,1.2022e-10,True
+a0_sh0es_vs_rar_relative,0.08563691045839729,,True
+residual_fb_one_third,-0.001760739529203794,-0.0017,True
+residual_fb_one_half,0.012675224103938426,0.0126,True

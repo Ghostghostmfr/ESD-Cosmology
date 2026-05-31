@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. R(u) at orbital scale <= 1e-6,3.5987357236423927e-19,1e-06,PASS
+2. R(u) at NS surface <= 1e-9,6.520207536300907e-35,1e-09,PASS
+3. GR omdot recovery <= 1e-3,7.391941041697247e-05,0.001,PASS
+4. h-blind verdict (|dR| << test threshold),1.7690257131129175e-19,1e-06,PASS

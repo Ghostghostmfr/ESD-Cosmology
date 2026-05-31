@@ -1,0 +1,4 @@
+claim,value,target,units,metric,gate,verdict
+1. lambda_J(comoving) within factor 2 of paper 94 kpc,0.1674050318140054,0.0,|log10(pred/paper)|,pred=63.93 kpc  vs  paper=94 kpc,|log10| <= 0.301  (factor 2),PASS
+2. h-blindness of C7 (Thm 1),0.0,0.0,kpc,lambda_J(comov) = 63.9327 kpc,|d lambda_J / d h| <= 1e-12,PASS
+3. lambda_J ~ m_22^{-1/2} scaling,-0.5000000000000003,-0.5,d ln lambda / d ln m_22,"fit over m_22 in [0.1, 100]  (31 samples)",|slope - (-0.5)| <= 0.01,PASS

@@ -1,0 +1,9 @@
+label,value
+rho_b0 (esd_core lock) [Msun/Mpc^3],6289880100.088863
+rho_b0 (Planck fit)    [Msun/Mpc^3],6190159387.487922
+Omega_b (lock),0.05009420105743376
+Omega_b (Planck),0.0493
+epsilon_* (lock),1.0334060262783336
+epsilon_* (Planck),1.050053737410761
+delta epsilon_* (lock - Planck),-0.016647711132427467
+rel relaxation,0.015854151591782013

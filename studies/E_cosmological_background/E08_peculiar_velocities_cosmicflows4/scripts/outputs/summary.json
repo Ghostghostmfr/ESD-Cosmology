@@ -1,0 +1,79 @@
+{
+  "study": "E08_peculiar_velocities_cosmicflows4",
+  "framework_lock": {
+    "Omega_m": 0.31574,
+    "sigma_8": 0.8111,
+    "gamma_Linder": 0.55
+  },
+  "esd_fsigma8_z0": 0.4302349467199893,
+  "per_program": [
+    {
+      "program": "6dFGSv (Huterer+ 2017)",
+      "fsigma8": 0.428,
+      "sigma": 0.066,
+      "tension_sigma": 0.03386282909074706,
+      "ref": "Huterer+ 2017"
+    },
+    {
+      "program": "6dFGSv (Adams & Blake 2020)",
+      "fsigma8": 0.384,
+      "sigma": 0.052,
+      "tension_sigma": 0.8891335907690249,
+      "ref": "Adams & Blake 2020"
+    },
+    {
+      "program": "2MTF (Howlett+ 2017)",
+      "fsigma8": 0.505,
+      "sigma": 0.085,
+      "tension_sigma": 0.879588862117773,
+      "ref": "Howlett+ 2017"
+    },
+    {
+      "program": "SDSS PV (Howlett+ 2017)",
+      "fsigma8": 0.452,
+      "sigma": 0.077,
+      "tension_sigma": 0.28266302961052875,
+      "ref": "Howlett+ 2017"
+    },
+    {
+      "program": "SFI++/A2 (Boruah+ 2020)",
+      "fsigma8": 0.4,
+      "sigma": 0.04,
+      "tension_sigma": 0.7558736679997319,
+      "ref": "Boruah+ 2020"
+    },
+    {
+      "program": "2M++ (Lilow & Nusser 2021)",
+      "fsigma8": 0.421,
+      "sigma": 0.038,
+      "tension_sigma": 0.24302491368392928,
+      "ref": "Lilow & Nusser 2021"
+    },
+    {
+      "program": "Cosmicflows-3 (Said+ 2020)",
+      "fsigma8": 0.46,
+      "sigma": 0.06,
+      "tension_sigma": 0.49608422133351204,
+      "ref": "Said+ 2020"
+    },
+    {
+      "program": "Cosmicflows-4 (Said+ 2024)",
+      "fsigma8": 0.413,
+      "sigma": 0.034,
+      "tension_sigma": 0.5069101976467446,
+      "ref": "Said+ 2024"
+    }
+  ],
+  "chi2": 2.778743801878879,
+  "dof": 8,
+  "chi2_per_dof": 0.34734297523485985,
+  "within_1sig": 8,
+  "within_2sig": 8,
+  "gate1_study19_inheritance": true,
+  "gate2_2sig_coverage": true,
+  "gate3_chi2": true,
+  "gate4_1sig_majority": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): ESD inherits LCDM linear growth (Study 19) and the Planck-locked sigma_8 = 0.8111 (Hubble paper Identity B), giving fsigma_8(z=0) = 0.4302. The 8-program peculiar-velocity compilation (6dFGSv, 2MTF, SDSS PV, SFI++/A2, 2M++, Cosmicflows-3/4) gives chi^2/dof = 0.35 with 8/8 within 1 sigma and 8/8 within 2 sigma. The slight high-side preference (program-mean fsigma_8 ~ 0.43, close to ESD value) is well within compilation scatter and consistent with the canonical sigma_8 tension family, owned by Study 18. No new free parameters."
+}

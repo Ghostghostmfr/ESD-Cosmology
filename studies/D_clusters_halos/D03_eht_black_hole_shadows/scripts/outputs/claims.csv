@@ -1,0 +1,5 @@
+claim,metric,value,target,gate,verdict
+1. ESD ring diameter matches GR (strong-field),"max |θ_ESD - θ_GR|/θ_GR over M87*, Sgr A*",0.0,1e-06,<= 1e-06,PASS
+2. EHT measurements consistent with ESD/GR,"max |θ_ESD - θ_obs|/θ_err over M87*, Sgr A*",0.76722529041947,2.0,<= 2σ,PASS
+3. Closure correction R(u) negligible at photon sphere,max R(u_photon_sphere),3.3286343605241515e-21,1e-10,<= 1e-10,PASS
+4. h-blindness of θ_ring (Thm 1 via a_0),"max |Δθ(H0_lo,H0_hi)|/θ_GR",0.0,1e-15,<= 1e-15,PASS

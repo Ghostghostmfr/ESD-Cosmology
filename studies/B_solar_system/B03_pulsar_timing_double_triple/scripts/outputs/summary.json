@@ -1,0 +1,51 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at orbital scale <= 1e-6",
+      "value": 3.5987357236423927e-19,
+      "target": 1e-06,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. R(u) at NS surface <= 1e-9",
+      "value": 6.520207536300907e-35,
+      "target": 1e-09,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. GR omdot recovery <= 1e-3",
+      "value": 7.391941041697247e-05,
+      "target": 0.001,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind verdict (|dR| << test threshold)",
+      "value": 1.7690257131129175e-19,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "system": "J0737 orbital",
+      "g_m_s2": 230.22609213861702,
+      "R_u": 3.5987357236423927e-19
+    },
+    {
+      "system": "J0737 NS surface",
+      "g_m_s2": 1233606655940.8232,
+      "R_u": 6.520207536300907e-35
+    },
+    {
+      "system": "J0737 omdot_pred (deg/yr)",
+      "g_m_s2": NaN,
+      "R_u": 16.900572187992605
+    },
+    {
+      "system": "J0337 SEP |Delta| 95% CL",
+      "g_m_s2": NaN,
+      "R_u": 1.8e-06
+    }
+  ],
+  "fails": []
+}

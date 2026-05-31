@@ -1,0 +1,23 @@
+{
+  "headline": {
+    "paper_coefficient": 0.18292710784646163,
+    "a0_planck_paper_mode": 1.1978871125649554e-10,
+    "milgrom_2pi_coincidence": 1.0422165280763669e-10,
+    "fb_best_fit_to_RAR": 0.35353500000000004,
+    "framework_coefficient_IdB": 0.18358075598782594,
+    "a0_planck_framework_mode": 1.202167487922716e-10,
+    "a0_sh0es_vs_rar_relative": 0.08563691045839729,
+    "residual_fb_one_third": -0.001760739529203794,
+    "residual_fb_one_half": 0.012675224103938426
+  },
+  "published": {
+    "coeff_paper": 0.18288,
+    "a0_paper_planck": 1.198e-10,
+    "fb_best_fit": 0.354,
+    "a0_rar_canonical": 1.2e-10,
+    "fb_residual_third": -0.0017,
+    "fb_residual_half": 0.0126
+  },
+  "passed_all": true,
+  "failures": []
+}

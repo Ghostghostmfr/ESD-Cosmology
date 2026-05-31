@@ -1,0 +1,5 @@
+claim,value,target_lo,target_hi,verdict
+"1. Newton M_LG in [3, 6]e12 Msun (canonical range)",4179562835693.3594,3000000000000.0,6000000000000.0,PASS
+"2. ESD M_b in [0.8, 3]e11 Msun (LG baryon budget)",119575611114.50195,80000000000.0,300000000000.0,PASS
+3. R(u) at orbital scale >= 10 (cluster-additive regime),32.65396373323042,10.0,inf,PASS
+"4. h-blindness of M_b_ESD (Thm 1, C1)",0.0,0.0,0.001,PASS

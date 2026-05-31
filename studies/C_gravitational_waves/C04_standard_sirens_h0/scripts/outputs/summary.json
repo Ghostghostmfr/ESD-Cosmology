@@ -1,0 +1,96 @@
+{
+  "study": "C04_standard_sirens_h0",
+  "framework_lock": {
+    "H_0_locked": 67.36,
+    "gamma": 0.0
+  },
+  "per_measurement": [
+    {
+      "label": "GW170817 (BNS+EM)",
+      "H_0": 70.0,
+      "sigma_plus": 12.0,
+      "sigma_minus": 8.0,
+      "kind": "bright",
+      "tension_sigma": 0.22000000000000006,
+      "ref": "Abbott+ 2017, Nature 551, 85 (single BNS)"
+    },
+    {
+      "label": "GW170817 + GRB JVLA",
+      "H_0": 70.3,
+      "sigma_plus": 5.3,
+      "sigma_minus": 5.0,
+      "kind": "bright+VLBI",
+      "tension_sigma": 0.554716981132075,
+      "ref": "Hotokezaka+ 2019, Nat. Astron. 3, 940 (VLBI inclination)"
+    },
+    {
+      "label": "GW190814 dark sirens",
+      "H_0": 75.0,
+      "sigma_plus": 18.0,
+      "sigma_minus": 7.0,
+      "kind": "dark",
+      "tension_sigma": 0.42444444444444446,
+      "ref": "Vasylyev & Filippenko 2020, ApJ 902, 149 (NS-BH dark)"
+    },
+    {
+      "label": "GWTC-3 dark sirens",
+      "H_0": 68.0,
+      "sigma_plus": 8.0,
+      "sigma_minus": 6.0,
+      "kind": "dark_statistical",
+      "tension_sigma": 0.08000000000000007,
+      "ref": "Abbott+ 2023, ApJ 949, 76 (LVK GWTC-3 stat catalog)"
+    },
+    {
+      "label": "LVK O3 BBH cosmography",
+      "H_0": 67.3,
+      "sigma_plus": 5.4,
+      "sigma_minus": 4.9,
+      "kind": "dark_statistical",
+      "tension_sigma": 0.012244897959184136,
+      "ref": "Abbott+ 2021, ApJ 909, 218 (BBH population)"
+    },
+    {
+      "label": "DECam+GW170817 host",
+      "H_0": 71.9,
+      "sigma_plus": 3.9,
+      "sigma_minus": 3.1,
+      "kind": "bright_redo",
+      "tension_sigma": 1.1641025641025657,
+      "ref": "Mukherjee+ 2021, A&A 646, A65 (peculiar-velocity corrected)"
+    },
+    {
+      "label": "LVK O4a (forecast)",
+      "H_0": 68.0,
+      "sigma_plus": 2.5,
+      "sigma_minus": 2.5,
+      "kind": "forecast",
+      "tension_sigma": 0.2560000000000002,
+      "ref": "Chen+ 2018, Nature 562, 545 (50 BNS forecast)"
+    },
+    {
+      "label": "ET/CE (forecast)",
+      "H_0": 67.4,
+      "sigma_plus": 0.5,
+      "sigma_minus": 0.5,
+      "kind": "forecast",
+      "tension_sigma": 0.0800000000000125,
+      "ref": "Borhanian+ 2020, ApJL 905, L28 (Einstein Telescope decade)"
+    }
+  ],
+  "ensemble": {
+    "H_0_mean": 70.28783565598182,
+    "H_0_sigma": 2.2712701322567,
+    "tension_sigma": 1.2890741679734807,
+    "N_real": 6,
+    "within_1sig": 5,
+    "within_2sig": 6
+  },
+  "gate1_gamma_zero": true,
+  "gate2_per_measurement": true,
+  "gate3_ensemble": true,
+  "gate4_forecast_reach": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): Study 21 (GW sector derivation) gives vanishing transverse-traceless friction gamma = 0 for ESD sub-horizon GW propagation: the disformal B(D) channel contributes only longitudinal/scalar polarizations, while the conformal A^2(D) channel carries the tensor mode identically to GR. Therefore d_L^GW = d_L^EM and standard-siren H_0 = CMB H_0 = 67.36 km/s/Mpc (ESD-locked). 6 published standard-siren H_0 measurements (GW170817 bright + VLBI, GW190814 NS-BH dark, GWTC-3 dark, BBH cosmography) give ensemble H_0 = 70.29 +/- 2.27 km/s/Mpc, lying 1.29 sigma from the framework-locked value with 5/6 within 1 sigma and 6/6 within 2 sigma. LVK O4a forecast sigma_H ~ 2.5; ET/CE decade forecast sigma_H ~ 0.5, sharpening the gamma = 0 test to sub-percent precision."
+}

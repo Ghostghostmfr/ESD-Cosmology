@@ -1,0 +1,4 @@
+name,k_max_Mpc,k_cut_pred,m22_bound,ref
+SDSS-BOSS DR9 (Palanque-Delabrouille+2013),1.6,98.27816672317027,21.08,"Palanque-Delabrouille+2013, A&A 559, A85"
+XQ-100 (Irsic+2017),5.6,98.27816672317027,20.0,"Irsic+2017, PRL 119, 031302"
+eBOSS DR14 (Rogers & Peiris 2021),5.6,98.27816672317027,200.0,"Rogers & Peiris 2021, PRL 126, 071302"

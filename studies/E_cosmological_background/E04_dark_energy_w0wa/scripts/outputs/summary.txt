@@ -1,0 +1,37 @@
+=== Study 22: DESI Y1 BAO + Planck CMB w0-wa joint test ===
+
+ESD framework prediction: w0 = -1, wa = 0 (theorem, not fit)
+ESD cosmology: Omega_m=0.31574, Omega_b=0.04930, H0=67.36
+
+  SN arm: DISABLED
+  N_BAO = 12,  N_SN = 0,  N_CMB = 3
+
+--- Gate 1: BAO-only chi^2 ---
+  chi^2_BAO(ESD-PRIMARY)  = 20.906
+  chi^2_BAO(Planck-LCDM)  = 20.920
+  Delta chi^2_BAO          = -0.014
+  Gate: |Delta chi^2| <= 5.0
+  ===> Gate 1 PASS
+
+--- CMB observables (ESD at H0=67.36) ---
+  R_model    = 1.7517  (Planck: 1.7492 +/- 0.0044)
+  l_A_model  = 301.800 (Planck: 301.80 +/- 0.14)
+  omega_b    = 0.02237  (Planck: 0.02237 +/- 0.00015)
+  chi^2_CMB(ESD) = 0.570
+
+--- Gate 2: BAO + CMB (+ SN) joint w0-wa ---
+  Best-fit CPL: w0=-0.717, wa=-1.083, H0=67.27, chi^2=12.302
+  ESD (w0=-1, wa=0, H0=67.36): chi^2=21.476
+  Delta chi^2_2D(ESD vs best-fit CPL) = 9.174
+  Tension: 2.57 sigma  [2D: 1s=2.3, 2s=6.18, 3s=11.83]
+  Gate: Delta chi^2_2D < 11.83
+  ===> Gate 2 PASS
+
+--- Gate 3: Honest negative (ALWAYS REPORTED) ---
+  TENSION FLAG (2.57 sigma): DESI+CMB prefer w0 != -1, wa != 0.
+  This is a potential falsifier. Verdict deferred to DESI Y3/Y5 + Euclid Y1.
+
+Published DESI Y1 + Planck CMB reference: ~2.3 sigma from LCDM
+(arXiv:2404.03002 Table 4, BAO + CMB combination).
+ESD prediction coincides with LCDM for (w0, wa), so the
+same ~2.3 sigma offset is expected at DESI Y1 precision.

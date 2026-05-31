@@ -1,0 +1,92 @@
+{
+  "claims": [
+    {
+      "claim": "1. rho_b,0 = Omega_b * rho_crit,0 identity",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "rel. err",
+      "metric": "rho_b,0 = 6.2899e+09 Msun/Mpc^3",
+      "gate": "<= 1e-10",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. Boylan-Kolchin 2023 SFE tension reproduced",
+      "value": 1.0334060262783336,
+      "target": 0.2,
+      "units": "dimensionless",
+      "metric": "epsilon_* = rho_*/(rho_b*f_coll) with f_coll=0.0010",
+      "gate": "> 0.2 (universal SFE upper limit)",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. h-blindness of rho_b,0 (Thm 1, C1)",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "Msun/Mpc^3 per unit h",
+      "metric": "rho_b,0 = 6.2899e+09 (omega-var form)",
+      "gate": "<= 1e-12",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. locked Omega_b vs Planck: |delta eps_*|/eps small",
+      "value": 0.015854151591782013,
+      "target": 0.0,
+      "units": "rel. err",
+      "metric": "eps_lock = 1.033 vs eps_planck = 1.050",
+      "gate": "<= 2%",
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "label": "Labbe+2023 CEERS",
+      "z_lo": 7.0,
+      "z_hi": 9.0,
+      "rho_star": 6500000.0,
+      "rho_err": 4000000.0,
+      "log10_Mstar_min": 10.5,
+      "epsilon_star_min": 1.0334060262783336,
+      "reference": "Nature 616, 266 (2023)"
+    },
+    {
+      "label": "Casey+2024 COSMOS-Web",
+      "z_lo": 7.5,
+      "z_hi": 10.0,
+      "rho_star": 2500000.0,
+      "rho_err": 1500000.0,
+      "log10_Mstar_min": 10.5,
+      "epsilon_star_min": 0.39746385626089753,
+      "reference": "ApJ 965, 98 (2024)"
+    },
+    {
+      "label": "Xiao+2024 FRESCO",
+      "z_lo": 5.0,
+      "z_hi": 9.0,
+      "rho_star": 10000000.0,
+      "rho_err": 5000000.0,
+      "log10_Mstar_min": 10.0,
+      "epsilon_star_min": 1.5898554250435901,
+      "reference": "Nature 635, 311 (2024)"
+    }
+  ],
+  "cross_anchor": {
+    "rho_b0 (esd_core lock) [Msun/Mpc^3]": 6289880100.088863,
+    "rho_b0 (Planck fit)    [Msun/Mpc^3]": 6190159387.487922,
+    "Omega_b (lock)": 0.05009420105743376,
+    "Omega_b (Planck)": 0.0493,
+    "epsilon_* (lock)": 1.0334060262783336,
+    "epsilon_* (Planck)": 1.050053737410761,
+    "delta epsilon_* (lock - Planck)": -0.016647711132427467,
+    "rel relaxation": 0.015854151591782013
+  },
+  "fails": [],
+  "inputs": {
+    "rho_star_labbe": 6500000.0,
+    "f_collapse_highz": 0.001,
+    "omega_b_lock": 0.05009420105743376,
+    "omega_m_lock": 0.3157364607189995,
+    "omega_b_planck": 0.0493,
+    "omega_m_planck": 0.3158,
+    "h_fid": 0.6727
+  }
+}

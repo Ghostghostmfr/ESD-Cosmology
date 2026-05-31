@@ -1,0 +1,27 @@
+=== Study 09: GW propagation + disformal photon channel ===
+
+  Reproduces Channel 1 of hubble paper (Higginson 2026,
+  Zenodo 10.5281/zenodo.20400097).
+
+  claim                                                    value        target   verdict
+  --------------------------------------------------------------------------------------
+  1. GW170817 |eps_0| bound vs paper 6e-15             4.226e-16         6e-15      PASS
+    ratio = 7.044e-02 (naive 1.74s/40Mpc bound)    [gate: ratio <= 5.0]
+  2. photon-barrier eps_2_max vs paper 5.9e-19         5.932e-19       5.9e-19      PASS
+    rel_err = +5.346e-03    [gate: |rel_err| <= 0.05]
+  3. saturated Delta H_0 from disformal channel           0.1141          0.12      PASS
+    DA ratio = 0.998306    [gate: |Delta H_0| <= 0.20]
+
+  --- input events ---
+    GW170817 + GRB170817A             D =   40.0 Mpc   GRB lag = 1.74 s
+    GW190425 (BNS, no EM)             D =  159.0 Mpc   GRB lag = -- (no EM)
+    GW230529 (NSBH, no EM)            D =  201.0 Mpc   GRB lag = -- (no EM)
+
+  --- saturated dispersion ---
+    eps_0 (used)       = 6.000e-15
+    eps_2 (barrier)    = 5.932e-19
+    D_A ratio (mod/GR) = 0.99830579
+    Delta H_0          = +0.1141 km/s/Mpc
+    paper Table 1 cap  = 0.12 km/s/Mpc
+
+  ===> ALL 3 CHANNEL-1 CLAIMS REPRODUCED

@@ -1,0 +1,51 @@
+{
+  "N": 129,
+  "a_zero_SI": 1.2014540354076285e-10,
+  "esd": {
+    "mean_residual_dex": -0.01753518034745756,
+    "rms_residual_dex": 0.2676753249905564,
+    "effective_alpha": 3.8369008725919542
+  },
+  "mond": {
+    "mean_residual_dex": 0.10235963607052868,
+    "rms_residual_dex": 0.2827365107462236,
+    "effective_alpha": 4.0
+  },
+  "observed_alpha": 3.7467808739074937,
+  "g_N_methods": {
+    "rotcurve": 129,
+    "pointmass": 0,
+    "skipped": 0
+  },
+  "u_range": [
+    0.03354099713551696,
+    8.369880916801199
+  ],
+  "G_range": [
+    1.0123778240058432,
+    3.5644579119142903
+  ],
+  "published": {
+    "N": 129,
+    "esd_rms_dex": 0.268,
+    "mond_rms_dex": 0.283,
+    "esd_mean_dex": -0.017,
+    "mond_mean_dex": 0.103,
+    "alpha_eff_esd": 3.84
+  },
+  "tolerance": {
+    "rms": 0.01,
+    "mean": 0.02,
+    "alpha": 0.05,
+    "N": 5
+  },
+  "reproduction": {
+    "N": true,
+    "esd_rms": true,
+    "mond_rms": true,
+    "esd_mean": true,
+    "mond_mean": true,
+    "alpha_esd": true
+  },
+  "overall_reproduction": true
+}

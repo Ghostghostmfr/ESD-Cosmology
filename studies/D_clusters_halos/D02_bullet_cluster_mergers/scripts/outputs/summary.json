@@ -1,0 +1,100 @@
+{
+  "claims": [
+    {
+      "claim": "1. Bullet East M_tot/M_gas reproduced",
+      "value": 0.004167150963320106,
+      "target": 0.0,
+      "units": "rel. err",
+      "metric": "ESD=6.390 vs obs=6.364",
+      "gate": "<= 30%",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. Joint 4-merger M_tot/M_gas fit",
+      "value": 0.4049357912874366,
+      "target": 0.0,
+      "units": "mean |resid|/\u03c3",
+      "metric": "4 mergers: Bullet E, Bullet Main, MACS J0025, A520",
+      "gate": "<= 2.0\u03c3",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. h-blindness of M_tot/M_b (Thm 1, C4)",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "rel. err",
+      "metric": "M_tot/M_b = 6.9173 (bit-identical across h)",
+      "gate": "<= 1e-20",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. Dark sector dominates (offset structurally allowed)",
+      "value": 0.8031259489486622,
+      "target": 0.8,
+      "units": "fraction",
+      "metric": "min over 4 mergers of (Omega_DM/Omega_b) / (M_tot/M_b)",
+      "gate": ">= 80%",
+      "verdict": "PASS"
+    }
+  ],
+  "mergers": [
+    {
+      "label": "1E 0657-56 (Bullet) East",
+      "M_gas_1e13": 5.5,
+      "M_tot_obs_1e13": 35.0,
+      "ratio_obs": 6.363636363636363,
+      "ratio_err": 1.1438446463997327,
+      "ratio_ESD": 6.390154597039309,
+      "residual_sigma": 0.02318342222994411,
+      "DM_dominance": 0.829847607389008,
+      "offset_kpc": 200
+    },
+    {
+      "label": "1E 0657-56 (Bullet) Main",
+      "M_gas_1e13": 11.0,
+      "M_tot_obs_1e13": 60.0,
+      "ratio_obs": 5.454545454545454,
+      "ratio_err": 1.1746008597976771,
+      "ratio_ESD": 6.338125848027264,
+      "residual_sigma": 0.7522388444650084,
+      "DM_dominance": 0.8366597051476108,
+      "offset_kpc": 210
+    },
+    {
+      "label": "MACS J0025.4-1222",
+      "M_gas_1e13": 2.5,
+      "M_tot_obs_1e13": 15.0,
+      "ratio_obs": 6.0,
+      "ratio_err": 1.3994284547628721,
+      "ratio_ESD": 6.6027682334765565,
+      "residual_sigma": 0.43072458004199526,
+      "DM_dominance": 0.8031259489486622,
+      "offset_kpc": 150
+    },
+    {
+      "label": "Abell 520 (Train Wreck)",
+      "M_gas_1e13": 4.5,
+      "M_tot_obs_1e13": 32.0,
+      "ratio_obs": 7.111111111111111,
+      "ratio_err": 1.5498622050839719,
+      "ratio_ESD": 6.470093809041238,
+      "residual_sigma": -0.41359631841279876,
+      "DM_dominance": 0.819594685905294,
+      "offset_kpc": 480
+    }
+  ],
+  "fails": [],
+  "inputs": {
+    "omega_dm_lock": 0.26564225966156574,
+    "omega_b_lock": 0.05009420105743376,
+    "DM_over_B": 5.302854503198941,
+    "a_0_si": 1.2e-10,
+    "closure_pool": {
+      "p": 1.618033988749895,
+      "q": 0.5948105273504066,
+      "s": 26.88854381999832,
+      "b": 15.944271909999163,
+      "c": 0.5715870659509185
+    }
+  }
+}

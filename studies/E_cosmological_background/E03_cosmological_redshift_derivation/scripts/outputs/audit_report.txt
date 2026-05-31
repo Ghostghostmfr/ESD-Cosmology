@@ -1,0 +1,50 @@
+
+=== Study 20: ESD redshift derivation (null-geodesic applicability) ===
+
+  Companion to Study 19.  Same applicability axioms (A1-A3)
+  applied to photons.  A photon is massless, follows a null
+  geodesic with zero proper acceleration, and has no
+  associated subsystem g.  Axioms (A1) and (A2) BOTH fail.
+
+  Therefore R(u) does NOT modify photon propagation, and the
+  cosmological redshift relation is the standard LambdaCDM
+  one with ESD's locked Omega_m = 0.31574:
+      1 + z = a(t_obs) / a(t_emit)
+      H(z)  = H_0 sqrt( Omega_m (1+z)^3 + Omega_Lambda )
+      D_L(z), D_A(z), mu(z), dz/dt all inherit LambdaCDM forms.
+
+  ESD-locked Omega_m   = 0.315736
+  ESD-locked Omega_L   = 0.684264
+  H_0 (Planck mode)    = 67.36 km/s/Mpc
+
+claim                                                                          value       target  verdict
+--------------------------------------------------------------------------------------------------------------
+  1. R(u) does NOT apply to null geodesics (photons)                           false must_be_false     PASS
+    applicability axioms (A1),(A2) for photons    [gate: R(u)_applies == False]
+  2. mu(z) identity: ESD = LambdaCDM-Planck (Omega_m identity)              0.000114     <= 0.005     PASS
+    max over 6 redshifts of |mu_ESD - mu_LCDM_Planck| [mag]    [gate: <= 0.005 mag]
+  3. CMB z_* = 1089.92 inherited exactly (no anomalous z component)          1089.92       Planck     PASS
+    z_CMB derived from recombination physics unmodified    [gate: structural]
+  4. h-blindness of dimensionless z (Thm 1)                                 1.45e-16     <= 1e-10     PASS
+    |D_C/H0(h_lo) - D_C/H0(h_hi)| / D_C/H0(h_lo)    [gate: <= 1e-10]
+
+  --- mu(z) identity: ESD vs LambdaCDM-Planck ---
+    z=0.01:  mu_ESD = 33.2585   mu_LCDM = 33.2585   |delta| = 0.0000 mag
+    z=0.10:  mu_ESD = 38.3961   mu_LCDM = 38.3961   |delta| = 0.0000 mag
+    z=0.50:  mu_ESD = 42.3329   mu_LCDM = 42.3329   |delta| = 0.0000 mag
+    z=1.00:  mu_ESD = 44.1637   mu_LCDM = 44.1636   |delta| = 0.0001 mag
+    z=1.50:  mu_ESD = 45.2472   mu_LCDM = 45.2471   |delta| = 0.0001 mag
+    z=2.00:  mu_ESD = 46.0119   mu_LCDM = 46.0118   |delta| = 0.0001 mag
+
+  --- Sandage redshift drift dz/dt_obs (predicted, observable by ELT/SKA) ---
+    z=0.5:  dz/dt = +1.221e-11 per year   (= +0.122 x 1e-10)
+    z=1.0:  dz/dt = +1.435e-11 per year   (= +0.144 x 1e-10)
+    z=2.0:  dz/dt = -2.388e-12 per year   (= -0.024 x 1e-10)
+    z=4.0:  dz/dt = -9.207e-11 per year   (= -0.921 x 1e-10)
+
+  ===> ALL 4 REDSHIFT CLAIMS PASS
+
+  Framework-native statement: ESD predicts NO anomalous
+  redshift component, NO tired-light contribution, NO
+  Arp-style discordant-redshift mechanism.  All redshift
+  observables inherit LambdaCDM forms with the locked Omega_m.

@@ -5,7 +5,7 @@ title: "ESD Cosmology — replication code for the Energy-Space-Displacement fra
 authors:
   - family-names: Higginson
     given-names: James P.
-repository-code: "https://github.com/Ghostghostmfr/ESD-Cosmology"
+repository-code: "https://github.com/<user>/esd-cosmology"
 license: MIT
 version: "0.1.0"
 date-released: "2026-05-28"

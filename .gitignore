@@ -35,12 +35,22 @@ studies/*/scripts/outputs/
 theory/*/outputs/
 theory/*/figures_generated/
 theory/*/scripts/outputs/
+simulations/*/outputs/
+simulations/*/figures_generated/
+simulations/*/scripts/outputs/
+simulations/*/snapshots/
 *.log
 *.npz
 !studies/*/data/**/*.npz
+!simulations/*/data/**/*.npz
 
 # --- Large data (download via script, do not commit) ---
 studies/*/data/large/
+simulations/*/data/large/
+simulations/*/snapshots/large/
+
+# --- Visualizations: PRIVATE, do not push upstream until promoted ---
+visualizations/
 
 # --- Docker scratch ---
 .docker_build_cache/

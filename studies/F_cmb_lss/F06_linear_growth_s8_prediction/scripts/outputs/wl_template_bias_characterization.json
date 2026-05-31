@@ -1,0 +1,136 @@
+{
+  "task": "2_wl_template_bias_mechanism_characterization",
+  "halo_profile_R_of_u": {
+    "R/R_vir=0.05": {
+      "u": 86.49251690673825,
+      "R(u)": 0.01692540913033427,
+      "g_obs/g_N": 1.0169254091303344
+    },
+    "R/R_vir=0.20": {
+      "u": 10.81156461334228,
+      "R(u)": 0.2372045116366654,
+      "g_obs/g_N": 1.2372045116366654
+    },
+    "R/R_vir=0.50": {
+      "u": 2.735133539859143,
+      "R(u)": 0.7754701599977738,
+      "g_obs/g_N": 1.7754701599977738
+    },
+    "R/R_vir=1.00": {
+      "u": 0.9670157367425829,
+      "R(u)": 1.5680192543061047,
+      "g_obs/g_N": 2.5680192543061047
+    }
+  },
+  "wl_window_bound": {
+    "f_1h_assumed": 0.4,
+    "halos_sampled": {
+      "group_5e13": {
+        "M_solar": 50000000000000.0,
+        "R_vir_Mpc": 0.7,
+        "profile": {
+          "R/R_vir=0.05": {
+            "u": 42.36368175023915,
+            "R(u)": 0.04654596641609931,
+            "g_obs/g_N": 1.0465459664160992
+          },
+          "R/R_vir=0.20": {
+            "u": 5.295460218779894,
+            "R(u)": 0.46058193023649013,
+            "g_obs/g_N": 1.4605819302364902
+          },
+          "R/R_vir=0.50": {
+            "u": 1.3396572440126413,
+            "R(u)": 1.2713342185213519,
+            "g_obs/g_N": 2.2713342185213516
+          },
+          "R/R_vir=1.00": {
+            "u": 0.47364036085351,
+            "R(u)": 2.4240167107578494,
+            "g_obs/g_N": 3.4240167107578494
+          }
+        },
+        "R_avg_over_radii": 1.0506197064829477,
+        "halo_g_boost_avg": 2.050619706482948
+      },
+      "cluster_3e14": {
+        "M_solar": 300000000000000.0,
+        "R_vir_Mpc": 1.2,
+        "profile": {
+          "R/R_vir=0.05": {
+            "u": 86.49251690673825,
+            "R(u)": 0.01692540913033427,
+            "g_obs/g_N": 1.0169254091303344
+          },
+          "R/R_vir=0.20": {
+            "u": 10.81156461334228,
+            "R(u)": 0.2372045116366654,
+            "g_obs/g_N": 1.2372045116366654
+          },
+          "R/R_vir=0.50": {
+            "u": 2.735133539859143,
+            "R(u)": 0.7754701599977738,
+            "g_obs/g_N": 1.7754701599977738
+          },
+          "R/R_vir=1.00": {
+            "u": 0.9670157367425829,
+            "R(u)": 1.5680192543061047,
+            "g_obs/g_N": 2.5680192543061047
+          }
+        },
+        "R_avg_over_radii": 0.6494048337677195,
+        "halo_g_boost_avg": 1.6494048337677194
+      },
+      "massive_cluster_1e15": {
+        "M_solar": 1000000000000000.0,
+        "R_vir_Mpc": 1.7,
+        "profile": {
+          "R/R_vir=0.05": {
+            "u": 143.655391402195,
+            "R(u)": 0.007905278516961886,
+            "g_obs/g_N": 1.007905278516962
+          },
+          "R/R_vir=0.20": {
+            "u": 17.956923925274374,
+            "R(u)": 0.13689413654783,
+            "g_obs/g_N": 1.13689413654783
+          },
+          "R/R_vir=0.50": {
+            "u": 4.542782349939062,
+            "R(u)": 0.5233778089432075,
+            "g_obs/g_N": 1.5233778089432075
+          },
+          "R/R_vir=1.00": {
+            "u": 1.606116102548235,
+            "R(u)": 1.1269686407317723,
+            "g_obs/g_N": 2.1269686407317723
+          }
+        },
+        "R_avg_over_radii": 0.44878646618494294,
+        "halo_g_boost_avg": 1.448786466184943
+      }
+    },
+    "R_avg_min": 0.44878646618494294,
+    "R_avg_median": 0.7162703354785367,
+    "R_avg_max": 1.0506197064829477,
+    "delta_sigma8_over_sigma8_bound": {
+      "low": 0.0897572932369886,
+      "typical": 0.14325406709570734,
+      "high": 0.21012394129658954
+    }
+  },
+  "comparison_with_observed_tension": {
+    "sigma_8_Planck": 0.8111,
+    "sigma_8_WL_at_Planck_Omega_m": 0.752515690126542,
+    "observed_deficit_fraction": 0.07222822077852063,
+    "framework_bound": {
+      "low": 0.0897572932369886,
+      "typical": 0.14325406709570734,
+      "high": 0.21012394129658954
+    },
+    "deficit_le_upper_bound": true,
+    "deficit_le_low_bound": true,
+    "deficit_within_factor_2_of_typical": true
+  },
+  "verdict": "BOUNDED & CONSISTENT - the closure-pool R(u) kernel, gated by delta > delta_vir per the Study-19 applicability theorem, yields a WL-pipeline sigma_8 bias upper-bounded by ~ f_1h * <R>_halo / 2 = 9-21 % for representative WL-probed halo masses (clusters to groups). The observed Planck-vs-WL deficit of 7.2 % sits just below the low end of this framework-bounded range, i.e. the mechanism has enough dynamic range to produce the tension and is not in conflict with it. Sign and exact magnitude require the deferred ESD-native nonlinear emulator (Study 19 future work). Item 2 family-ownership chain is upgraded from 'asserted' to 'bounded and consistent in magnitude'."
+}

@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. R(u) at NS surface <= 1e-15,5.604819712023745e-36,1e-15,PASS
+"2. Lambda_ESD inside LVC 90% CL [70, 720]",300.0,inside,PASS
+3. ESD/GR ratio (1+R-1) <= 1e-15,0.0,1e-15,PASS
+4. h-blind |dR| <= 1e-6,2.755153739915908e-36,1e-06,PASS

@@ -1,0 +1,19 @@
+claim                                                                value     target  verdict
+--------------------------------------------------------------------------------------------------
+  1. Bullet East M_tot/M_gas reproduced                           0.004167          0     PASS
+    ESD=6.390 vs obs=6.364    [gate: <= 30%]
+  2. Joint 4-merger M_tot/M_gas fit                                 0.4049          0     PASS
+    4 mergers: Bullet E, Bullet Main, MACS J0025, A520    [gate: <= 2.0σ]
+  3. h-blindness of M_tot/M_b (Thm 1, C4)                                0          0     PASS
+    M_tot/M_b = 6.9173 (bit-identical across h)    [gate: <= 1e-20]
+  4. Dark sector dominates (offset structurally allowed)            0.8031        0.8     PASS
+    min over 4 mergers of (Omega_DM/Omega_b) / (M_tot/M_b)    [gate: >= 80%]
+
+  --- per-merger table ---
+    system                        ratio_obs      ±  ratio_ESD      σ    DM%  off_kpc
+    1E 0657-56 (Bullet) East          6.364  1.144      6.390  +0.02  83.0%      200
+    1E 0657-56 (Bullet) Main          5.455  1.175      6.338  +0.75  83.7%      210
+    MACS J0025.4-1222                 6.000  1.399      6.603  +0.43  80.3%      150
+    Abell 520 (Train Wreck)           7.111  1.550      6.470  -0.41  82.0%      480
+
+  ===> ALL 4 BULLET CLAIMS REPRODUCED

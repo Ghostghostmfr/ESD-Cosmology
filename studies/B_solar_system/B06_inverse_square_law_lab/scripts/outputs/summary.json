@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at lab scale <= 1e-15",
+      "value": 6.30214805321283e-18,
+      "target": 1e-15,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. predicted |alpha| inside all 5 published bounds",
+      "value": "5/5",
+      "target": "5/5",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. max |alpha_ESD|/|alpha_bound| <= 1e-3",
+      "value": 0.0,
+      "target": 0.001,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind |dR| <= 1e-6",
+      "value": 3.0979385011691373e-18,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "experiment": "Lee+2020 EW",
+      "lambda_um": 38.0,
+      "alpha_95": 1.0,
+      "alpha_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "experiment": "Lee+2020 EW",
+      "lambda_um": 52.0,
+      "alpha_95": 0.1,
+      "alpha_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "experiment": "Kapner+2007",
+      "lambda_um": 56.0,
+      "alpha_95": 0.1,
+      "alpha_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "experiment": "Tan+2020 HUST",
+      "lambda_um": 70.0,
+      "alpha_95": 0.014,
+      "alpha_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "experiment": "Tan+2020 HUST",
+      "lambda_um": 480.0,
+      "alpha_95": 9e-06,
+      "alpha_ESD": 0.0,
+      "inside_bound": true
+    }
+  ],
+  "fails": []
+}

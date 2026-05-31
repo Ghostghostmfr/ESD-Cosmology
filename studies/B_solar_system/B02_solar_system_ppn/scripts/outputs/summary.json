@@ -1,0 +1,69 @@
+{
+  "esd_predictions": {
+    "gamma_minus_1_cassini": 1.3181769092493712e-19,
+    "beta_minus_1_mercury": 3.485319482875105e-22,
+    "eta_nordtvedt_earth": -1.014552961680445e-12,
+    "gdot_over_g_per_yr": 1.3860012800000002e-19
+  },
+  "bounds_2sigma": {
+    "gamma_minus_1": 6.7e-05,
+    "beta_minus_1": 0.00033,
+    "eta_nordtvedt": 0.0016,
+    "gdot_over_g_per_yr": 1.6e-13
+  },
+  "safety_margins": {
+    "gamma": 508277754904330.7,
+    "beta": 9.468285522214935e+17,
+    "eta": 1577049262.5144532,
+    "gdot": 1154400.0882885186
+  },
+  "three_channel_states": {
+    "earth_surface": {
+      "u": 327000000000.0,
+      "R": 6.289811847861246e-18,
+      "w_S": 0.999999999973658,
+      "w_E": 2.634203267837415e-11,
+      "w_D": 1.3370657494767076e-19,
+      "gamma_minus_1": 6.28981184769556e-18,
+      "beta_minus_1": 1.6568642923718586e-28,
+      "eta_nordtvedt": -6.2898118470328144e-18
+    },
+    "earth_orbit": {
+      "u": 197720162.97598818,
+      "R": 1.0145532241842279e-12,
+      "w_S": 0.9999999482523215,
+      "w_E": 5.1747656975925194e-08,
+      "w_D": 2.1567010268187273e-14,
+      "gamma_minus_1": 1.0145531716834538e-12,
+      "beta_minus_1": 5.2500752228904356e-20,
+      "eta_nordtvedt": -1.014552961680445e-12
+    },
+    "mercury_orbit": {
+      "u": 1320167477.755665,
+      "R": 4.6998014513492995e-14,
+      "w_S": 0.9999999925841122,
+      "w_E": 7.415886647455032e-09,
+      "w_D": 9.990670153474984e-16,
+      "gamma_minus_1": 4.6998014164960994e-14,
+      "beta_minus_1": 3.485319482875105e-22,
+      "eta_nordtvedt": -4.69980127708332e-14
+    },
+    "cassini_closest": {
+      "u": 3564668367237.368,
+      "R": 1.3181769092523846e-19,
+      "w_S": 0.9999999999977139,
+      "w_E": 2.286042120705016e-12,
+      "w_D": 2.8021334178887035e-21,
+      "gamma_minus_1": 1.3181769092493712e-19,
+      "beta_minus_1": 3.0134079370917047e-31,
+      "eta_nordtvedt": -1.3181769092373175e-19
+    }
+  },
+  "gate1_gamma": true,
+  "gate2_beta": true,
+  "gate3_eta": true,
+  "gate4_gdot": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): three-channel ESD PPN deviations are |gamma-1| = 1.3e-19, |beta-1| = 3.5e-22, |eta_N| = 1.0e-12, |Gdot/G| = 1.4e-19/yr. All four lie BELOW the Cassini + LLR bounds by safety factors 5.1e+14, 9.5e+17, 1.6e+09, 1.2e+06 respectively. The structural reason is that at Solar-system scales the gravitational acceleration vastly exceeds a_0 (u_earth = 2.0e+08, u_cassini = 3.6e+12), so the closure kernel sits in the deep-UV limit where R(u) ~ u^(-phi) << 1 and all three-channel deviations are algebraically suppressed. ESD reproduces GR PPN WITHOUT needing chameleon/symmetron screening. The Gdot/G prediction is also six orders of magnitude below the LLR bound, set by the Cassini-bounded conformal coupling beta_m ~ 3.2e-5 and H_0."
+}

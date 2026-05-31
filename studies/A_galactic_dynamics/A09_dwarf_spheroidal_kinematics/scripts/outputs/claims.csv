@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. >=80% of sample within 1 dex,1.0,0.8,PASS
+"2. Mean log10(sigma_ESD/sigma_obs) in [-0.40, +0.20]",-0.27132021657205724,"[-0.4, 0.2]",PASS
+3. Crater II + Antlia II within 0.60 dex,0.5646136692772725,0.6,PASS
+"4. h-blindness of sigma_ESD (Thm 1, C1)",0.0,1e-20,PASS

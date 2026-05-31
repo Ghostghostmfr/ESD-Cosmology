@@ -1,4 +1,0 @@
-numpy
-matplotlib
-# Install esd_core editable from repo root: pip install -e ../../esd_core
-esd_core

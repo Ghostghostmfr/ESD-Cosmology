@@ -1,0 +1,6 @@
+experiment,lambda_um,alpha_95,alpha_ESD,inside_bound
+Lee+2020 EW,38.0,1.0,0.0,True
+Lee+2020 EW,52.0,0.1,0.0,True
+Kapner+2007,56.0,0.1,0.0,True
+Tan+2020 HUST,70.0,0.014,0.0,True
+Tan+2020 HUST,480.0,9e-06,0.0,True

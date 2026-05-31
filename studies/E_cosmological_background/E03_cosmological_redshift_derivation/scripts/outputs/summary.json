@@ -1,0 +1,83 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) does NOT apply to null geodesics (photons)",
+      "metric": "applicability axioms (A1),(A2) for photons",
+      "value": "false",
+      "target": "must_be_false",
+      "gate": "R(u)_applies == False",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. mu(z) identity: ESD = LambdaCDM-Planck (Omega_m identity)",
+      "metric": "max over 6 redshifts of |mu_ESD - mu_LCDM_Planck| [mag]",
+      "value": "0.000114",
+      "target": "<= 0.005",
+      "gate": "<= 0.005 mag",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. CMB z_* = 1089.92 inherited exactly (no anomalous z component)",
+      "metric": "z_CMB derived from recombination physics unmodified",
+      "value": "1089.92",
+      "target": "Planck",
+      "gate": "structural",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blindness of dimensionless z (Thm 1)",
+      "metric": "|D_C/H0(h_lo) - D_C/H0(h_hi)| / D_C/H0(h_lo)",
+      "value": "1.45e-16",
+      "target": "<= 1e-10",
+      "gate": "<= 1e-10",
+      "verdict": "PASS"
+    }
+  ],
+  "fails": [],
+  "pantheon_spot": [
+    {
+      "z": 0.01,
+      "mu_ESD": 33.258541980213664,
+      "mu_LCDM_Planck": 33.25854094590245,
+      "abs_delta_mag": 1.0343112109012509e-06
+    },
+    {
+      "z": 0.1,
+      "mu_ESD": 38.3961374474174,
+      "mu_LCDM_Planck": 38.396127181871016,
+      "abs_delta_mag": 1.0265546386278857e-05
+    },
+    {
+      "z": 0.5,
+      "mu_ESD": 42.332916835160525,
+      "mu_LCDM_Planck": 42.332869784406945,
+      "abs_delta_mag": 4.705075357946953e-05
+    },
+    {
+      "z": 1.0,
+      "mu_ESD": 44.16371600629133,
+      "mu_LCDM_Planck": 44.163636333638934,
+      "abs_delta_mag": 7.967265239727794e-05
+    },
+    {
+      "z": 1.5,
+      "mu_ESD": 45.247229887747565,
+      "mu_LCDM_Planck": 45.24712941656535,
+      "abs_delta_mag": 0.00010047118221478968
+    },
+    {
+      "z": 2.0,
+      "mu_ESD": 46.01189296723483,
+      "mu_LCDM_Planck": 46.01177888159111,
+      "abs_delta_mag": 0.00011408564371606644
+    }
+  ],
+  "applicability_null": {
+    "A1_bound_system_locality": false,
+    "A2_acceleration_definedness": false,
+    "A3_closure_universality": true,
+    "Ru_applies": false,
+    "rationale": "Photons follow null geodesics with zero proper acceleration. u = 4 g / a_0 requires a localized mass with a well-defined gravitational acceleration; this does not exist for a photon. Both axiom (A1) and axiom (A2) fail."
+  },
+  "h_blindness": 1.452498353128879e-16
+}

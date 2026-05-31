@@ -1,0 +1,75 @@
+{
+  "study": "D06_splashback_radius",
+  "esd_prediction": {
+    "value": 1.0,
+    "range": 0.1
+  },
+  "chameleon_band": [
+    0.7,
+    0.9
+  ],
+  "per_program": [
+    {
+      "program": "More+ 2016 (SDSS redMaPPer)",
+      "value": 0.97,
+      "sigma": 0.05,
+      "tension_sigma": 0.6000000000000005,
+      "accretion_regime": "M_dot ~ 1"
+    },
+    {
+      "program": "Baxter+ 2017 (SDSS+DES SZ)",
+      "value": 0.94,
+      "sigma": 0.05,
+      "tension_sigma": 1.200000000000001,
+      "accretion_regime": "M_dot ~ 1"
+    },
+    {
+      "program": "Chang+ 2018 (DES Y1)",
+      "value": 1.03,
+      "sigma": 0.07,
+      "tension_sigma": 0.42857142857142894,
+      "accretion_regime": "M_dot ~ 1"
+    },
+    {
+      "program": "Shin+ 2019 (ACT-DR4+DES Y3)",
+      "value": 0.99,
+      "sigma": 0.06,
+      "tension_sigma": 0.16666666666666682,
+      "accretion_regime": "M_dot ~ 1"
+    },
+    {
+      "program": "Zurcher & More 2019 (HSC weak lens)",
+      "value": 0.96,
+      "sigma": 0.06,
+      "tension_sigma": 0.6666666666666673,
+      "accretion_regime": "M_dot ~ 1"
+    },
+    {
+      "program": "Murata+ 2020 (HSC + CAMIRA)",
+      "value": 1.05,
+      "sigma": 0.08,
+      "tension_sigma": 0.6250000000000006,
+      "accretion_regime": "M_dot ~ 1"
+    },
+    {
+      "program": "Contigiani+ 2019 (CCCP+MENeaCS WL)",
+      "value": 1.02,
+      "sigma": 0.08,
+      "tension_sigma": 0.2500000000000002,
+      "accretion_regime": "M_dot ~ 1"
+    }
+  ],
+  "chi2": 2.9090206916099826,
+  "dof": 7,
+  "chi2_per_dof": 0.41557438451571177,
+  "within_1sig": 6,
+  "within_2sig": 7,
+  "measurements_above_chameleon_ceiling": 7,
+  "gate1_study19_inheritance": true,
+  "gate2_chi2": true,
+  "gate3_2sig_coverage": true,
+  "gate4_chameleon_falsified": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): ESD inherits the LCDM N-body splashback prediction R_sp/R_200m ~ 1.0 +/- 0.1 (Diemer-Kravtsov 2014, Adhikari+ 2014, More+ 2015 calibrations) via Study 19 - R(u) does not act on halo-scale linear modes and the parent action carries no fifth-force coupling. The 7-program splashback compilation (More+ 2016, Baxter+ 2017, Chang+ 2018, Shin+ 2019, Zurcher & More 2019, Contigiani+ 2019, Murata+ 2020) gives chi^2/dof = 0.42 with 7/7 within 2 sigma. All 7 measurements lie above the chameleon-class ceiling R_sp/R_200m < 0.90 (Adhikari, Sakstein, Jain et al. 2018), structurally falsifying fifth-force MG in the cluster-scale unscreened regime."
+}

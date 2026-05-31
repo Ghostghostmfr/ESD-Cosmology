@@ -1,0 +1,136 @@
+{
+  "claims": [
+    {
+      "claim": "1. Median theta_pred/theta_obs in [0.5, 2.0]",
+      "value": 1.1903759090274504,
+      "target": "[0.5, 2.0]",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. >= 6/7 lenses within +/-0.50 dex of observed",
+      "value": 7,
+      "target": 6,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. Median (f_DM_obs - f_DM_ESD) in [0.2, 0.5] (honest scope gap)",
+      "value": 0.35177992297298893,
+      "target": "[0.2, 0.5]",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blindness of theta_E (Thm 1, C1)",
+      "value": 0.0,
+      "target": 1e-20,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "label": "SDSSJ0008-0004",
+      "z_lens": 0.44,
+      "z_source": 1.192,
+      "sigma_v": 333.0,
+      "M_star": 260000000000.0,
+      "R_E_kpc": 6.59,
+      "theta_obs": 1.16,
+      "theta_esd": 1.4462882638082653,
+      "u_eff": 27.789280200025864,
+      "f_dm_obs": 0.4,
+      "f_dm_esd": 0.07478433179191052,
+      "f_dm_gap": 0.3252156682080895,
+      "log10_ratio": 0.09579687282171027
+    },
+    {
+      "label": "SDSSJ0029-0055",
+      "z_lens": 0.227,
+      "z_source": 0.931,
+      "sigma_v": 229.0,
+      "M_star": 120000000000.0,
+      "R_E_kpc": 3.48,
+      "theta_obs": 0.96,
+      "theta_esd": 1.5692016152552508,
+      "u_eff": 45.993614113797044,
+      "f_dm_obs": 0.32,
+      "f_dm_esd": 0.03995147372281739,
+      "f_dm_gap": 0.28004852627718263,
+      "log10_ratio": 0.2134075134585119
+    },
+    {
+      "label": "SDSSJ0037-0942",
+      "z_lens": 0.196,
+      "z_source": 0.632,
+      "sigma_v": 279.0,
+      "M_star": 210000000000.0,
+      "R_E_kpc": 4.95,
+      "theta_obs": 1.53,
+      "theta_esd": 1.799481549875739,
+      "u_eff": 39.78173095139367,
+      "f_dm_obs": 0.4,
+      "f_dm_esd": 0.048220077027011074,
+      "f_dm_gap": 0.35177992297298893,
+      "log10_ratio": 0.07045596736319867
+    },
+    {
+      "label": "SDSSJ0044+0113",
+      "z_lens": 0.12,
+      "z_source": 0.197,
+      "sigma_v": 266.0,
+      "M_star": 100000000000.0,
+      "R_E_kpc": 1.72,
+      "theta_obs": 0.79,
+      "theta_esd": 1.3753296284791565,
+      "u_eff": 156.89817253800697,
+      "f_dm_obs": 0.2,
+      "f_dm_esd": 0.00686053132321354,
+      "f_dm_gap": 0.19313946867678647,
+      "log10_ratio": 0.24077970772890064
+    },
+    {
+      "label": "SDSSJ0216-0813",
+      "z_lens": 0.332,
+      "z_source": 0.523,
+      "sigma_v": 333.0,
+      "M_star": 360000000000.0,
+      "R_E_kpc": 5.53,
+      "theta_obs": 1.16,
+      "theta_esd": 1.3808360544718423,
+      "u_eff": 54.642054128269066,
+      "f_dm_obs": 0.4,
+      "f_dm_esd": 0.0317308631537045,
+      "f_dm_gap": 0.36826913684629553,
+      "log10_ratio": 0.075684128986151
+    },
+    {
+      "label": "SDSSJ0252+0039",
+      "z_lens": 0.28,
+      "z_source": 0.982,
+      "sigma_v": 164.0,
+      "M_star": 90000000000.0,
+      "R_E_kpc": 4.4,
+      "theta_obs": 1.04,
+      "theta_esd": 0.9217379209189234,
+      "u_eff": 21.578037100867554,
+      "f_dm_obs": 0.55,
+      "f_dm_esd": 0.09936583502501396,
+      "f_dm_gap": 0.4506341649749861,
+      "log10_ratio": -0.05242588427381926
+    },
+    {
+      "label": "SDSSJ2300+0022",
+      "z_lens": 0.228,
+      "z_source": 0.464,
+      "sigma_v": 279.0,
+      "M_star": 170000000000.0,
+      "R_E_kpc": 4.51,
+      "theta_obs": 1.24,
+      "theta_esd": 1.1719680717251513,
+      "u_eff": 38.794540891241816,
+      "f_dm_obs": 0.45,
+      "f_dm_esd": 0.04978768071723853,
+      "f_dm_gap": 0.40021231928276146,
+      "log10_ratio": -0.02450590493277697
+    }
+  ],
+  "fails": []
+}

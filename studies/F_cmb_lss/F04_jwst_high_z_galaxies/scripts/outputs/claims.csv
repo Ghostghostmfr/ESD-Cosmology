@@ -1,0 +1,5 @@
+claim,value,target,units,metric,gate,verdict
+"1. rho_b,0 = Omega_b * rho_crit,0 identity",0.0,0.0,rel. err,"rho_b,0 = 6.2899e+09 Msun/Mpc^3",<= 1e-10,PASS
+2. Boylan-Kolchin 2023 SFE tension reproduced,1.0334060262783336,0.2,dimensionless,epsilon_* = rho_*/(rho_b*f_coll) with f_coll=0.0010,> 0.2 (universal SFE upper limit),PASS
+"3. h-blindness of rho_b,0 (Thm 1, C1)",0.0,0.0,Msun/Mpc^3 per unit h,"rho_b,0 = 6.2899e+09 (omega-var form)",<= 1e-12,PASS
+4. locked Omega_b vs Planck: |delta eps_*|/eps small,0.015854151591782013,0.0,rel. err,eps_lock = 1.033 vs eps_planck = 1.050,<= 2%,PASS

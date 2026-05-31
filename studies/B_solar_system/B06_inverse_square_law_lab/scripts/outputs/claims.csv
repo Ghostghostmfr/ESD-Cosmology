@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. R(u) at lab scale <= 1e-15,6.30214805321283e-18,1e-15,PASS
+2. predicted |alpha| inside all 5 published bounds,5/5,5/5,PASS
+3. max |alpha_ESD|/|alpha_bound| <= 1e-3,0.0,0.001,PASS
+4. h-blind |dR| <= 1e-6,3.0979385011691373e-18,1e-06,PASS

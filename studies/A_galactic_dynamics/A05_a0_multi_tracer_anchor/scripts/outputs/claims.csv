@@ -1,0 +1,5 @@
+claim,value,target,units,metric,gate,verdict
+1. round-trip a_0 <-> H_0,0.0,0.0,rel. residual,|H_0 - bridge_inversion(a_0(H_0))| / H_0,<= 1e-12,PASS
+2. Planck-mode a_0 matches McGaugh+2016,0.0012116961730237236,0.0,rel. err,a_0(H_Planck) = 1.2015e-10 vs 1.20e-10 m/s^2,<= 2%,PASS
+"3. h-blindness of a_0 (Thm 1, C1)",0.0,0.0,m/s^2 per unit h,a_0 = 1.1998e-10 m/s^2 (omega-var form),|d a_0 / d h| <= 1e-20,PASS
+4. esd_core.a_zero is single source of truth,0.0,0.0,rel. err,a_zero(H_Planck) bit-for-bit reproducible across calls,rel. err = 0,PASS

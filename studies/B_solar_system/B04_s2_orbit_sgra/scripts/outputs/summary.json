@@ -1,0 +1,55 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u_peri) <= 1e-6",
+      "value": 7.55100170313849e-16,
+      "target": 1e-06,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. f_SP within 1 sigma of GRAVITY+ 2020",
+      "value": 0.5263157894736812,
+      "target": 1.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. R(u_apo) <= 1e-4",
+      "value": 6.378098192468075e-12,
+      "target": 0.0001,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind |df_SP| <= 1e-6",
+      "value": 2.220446049250313e-16,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "point": "periastron g (m/s2)",
+      "value": 2.0376776644133745
+    },
+    {
+      "point": "apoastron g (m/s2)",
+      "value": 0.007626225425155102
+    },
+    {
+      "point": "R(u) at periastron",
+      "value": 7.55100170313849e-16
+    },
+    {
+      "point": "R(u) at apoastron",
+      "value": 6.378098192468075e-12
+    },
+    {
+      "point": "f_SP_pred",
+      "value": 1.0000000000000007
+    },
+    {
+      "point": "f_SP_obs (GRAVITY+20)",
+      "value": 1.1
+    }
+  ],
+  "fails": []
+}

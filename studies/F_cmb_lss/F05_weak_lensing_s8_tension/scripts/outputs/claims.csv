@@ -1,0 +1,5 @@
+claim,metric,value,target,gate,verdict
+1. WL inverse-variance joint S_8 reproduces ~0.772,|S_8_joint - 0.772|,0.00011943936624014828,0.02,<= 0.02,PASS
+2. Planck-vs-WL tension reproduced,|Planck - WL_joint| / sqrt(err_p^2+err_w^2),3.542253409828577,2.0,>= 2.0 sigma,PASS
+3. ESD-locked Omega_m matches Planck (tension axis = sigma_8 only),|Omega_ESD - Omega_Planck| / Omega_Planck,0.00020120101646770735,0.02,<= 0.02,PASS
+4. h-blindness of S_8 normalization (Thm 1 via Identity B),|S_8(h_lo) - S_8(h_hi)| for fixed sigma_8,0.0,1e-15,<= 1e-15,PASS

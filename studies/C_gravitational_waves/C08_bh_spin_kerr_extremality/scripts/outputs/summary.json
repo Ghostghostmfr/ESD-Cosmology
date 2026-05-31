@@ -1,0 +1,71 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at ISCO (chi=0.998, 10 Msun) <= 1e-15",
+      "value": 1.041255273740306e-36,
+      "target": 1e-15,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. predicted Thorne bound chi_max = 0.998",
+      "value": 0.998,
+      "target": 0.998,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. all observed chi <= Thorne bound",
+      "value": "4/4",
+      "target": "4/4",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind |dR| at ISCO <= 1e-6",
+      "value": 5.118484641884967e-37,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "object": "GRS 1915+105",
+      "channel": "X-ray reflection",
+      "M_Msun": 12.4,
+      "chi": 0.98,
+      "chi_err": 0.01,
+      "ref": "McClintock+ 2006",
+      "R_at_ISCO": 3.488600023213258e-36,
+      "inside_Thorne": true
+    },
+    {
+      "object": "MCG-6-30-15",
+      "channel": "X-ray reflection",
+      "M_Msun": 4500000.0,
+      "chi": 0.97,
+      "chi_err": 0.02,
+      "ref": "Brenneman & Reynolds 2006",
+      "R_at_ISCO": 4.3872491644293915e-27,
+      "inside_Thorne": true
+    },
+    {
+      "object": "GW150914 remnant",
+      "channel": "GW ringdown",
+      "M_Msun": 62.0,
+      "chi": 0.67,
+      "chi_err": 0.05,
+      "ref": "Abbott+ 2016",
+      "R_at_ISCO": 5.924768407475303e-34,
+      "inside_Thorne": true
+    },
+    {
+      "object": "GWTC-3 max",
+      "channel": "GW ringdown",
+      "M_Msun": 90.0,
+      "chi": 0.87,
+      "chi_err": 0.1,
+      "ref": "Abbott+ 2023 PRX 13 011048",
+      "R_at_ISCO": 3.612667091789007e-34,
+      "inside_Thorne": true
+    }
+  ],
+  "fails": []
+}

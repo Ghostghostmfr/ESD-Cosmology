@@ -1,0 +1,56 @@
+{
+  "claims": [
+    {
+      "claim": "1. round-trip a_0 <-> H_0",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "rel. residual",
+      "metric": "|H_0 - bridge_inversion(a_0(H_0))| / H_0",
+      "gate": "<= 1e-12",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. Planck-mode a_0 matches McGaugh+2016",
+      "value": 0.0012116961730237236,
+      "target": 0.0,
+      "units": "rel. err",
+      "metric": "a_0(H_Planck) = 1.2015e-10 vs 1.20e-10 m/s^2",
+      "gate": "<= 2%",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. h-blindness of a_0 (Thm 1, C1)",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "m/s^2 per unit h",
+      "metric": "a_0 = 1.1998e-10 m/s^2 (omega-var form)",
+      "gate": "|d a_0 / d h| <= 1e-20",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. esd_core.a_zero is single source of truth",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "rel. err",
+      "metric": "a_zero(H_Planck) bit-for-bit reproducible across calls",
+      "gate": "rel. err = 0",
+      "verdict": "PASS"
+    }
+  ],
+  "cross_study_table": {
+    "esd_core a_zero(H_planck) [m/s^2]": 1.2014540354076285e-10,
+    "esd_core a_zero(H_SH0ES)  [m/s^2]": 1.3027642925500767e-10,
+    "McGaugh+2016 RAR fit       [m/s^2]": 1.2e-10,
+    "rel_err (Planck vs McGaugh)": 0.0012116961730237236,
+    "rel_err (SH0ES vs McGaugh)": 0.08563691045839729
+  },
+  "fails": [],
+  "inputs": {
+    "H0_planck_kms": 67.36,
+    "H0_sh0es_kms": 73.04,
+    "a0_mcgaugh_ms2": 1.2e-10,
+    "omega_dm_lock": 0.26564225966156574,
+    "omega_b_lock": 0.05009420105743376,
+    "id_B": 0.847020980042131
+  }
+}

@@ -1,0 +1,16 @@
+=== Study 03: SPARC rotation-curve analysis ===
+  Reproducing Higginson 2026 paper 1 Sec. SPARC + companion paper
+
+  Sample:    N = 175   (published: 175)  OK 
+  Tie margin: |Delta chi^2| <= 1.0
+
+  --- Best-fit M/L from 13x9 grid (paper 1 baseline) ---
+    W / T / L = 53 / 98 / 24   (published: 53 / 94 / 24)  OK 
+    Sum Delta chi^2 = -842.9   (published: -843)  OK 
+
+  --- Fixed M/L  (Ud=0.5, Ub=0.7; zero per-galaxy parameters) ---
+    W / T / L = 73 / 55 / 47   (published: 73 / 55 / 47)  OK 
+    Sum Delta chi^2 = -587.9   (published: -588)  OK 
+    ESD < MOND on reduced chi^2: 106 galaxies   (published: 110)  OK 
+
+  overall reproduction within tolerance: True

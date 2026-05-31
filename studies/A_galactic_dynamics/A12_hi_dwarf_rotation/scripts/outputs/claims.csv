@@ -1,0 +1,5 @@
+claim,value,target,verdict
+"1. median V_pred/V_obs in [0.8,1.2]",0.9544798916735451,"[0.8, 1.2]",PASS
+2. both sources within 0.1 dex,0.06179311692711177,0.1,PASS
+3. both sources within 3 sigma,1.259937830620812,3.0,PASS
+4. BTFR scaling V_pred ~ H0^(1/4) verified,0.0,1e-06,PASS

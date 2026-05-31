@@ -1,0 +1,81 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at BH horizon (30 Msun) <= 1e-12",
+      "value": 2.916270893865139e-35,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. ESD inherits Kerr vanishing-Love-number: |k2_ESD| <= 1e-12",
+      "value": 0.0,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. Lambda_BH = 0 inside all tidal-deformability 90% CL bounds",
+      "value": "2/2",
+      "target": "2/2",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind |dR| at horizon <= 1e-6",
+      "value": 1.4335473882601145e-35,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "obs": "test M (Msun)",
+      "value": 30.0
+    },
+    {
+      "obs": "g_horizon (m/s2)",
+      "value": 507082388238.4269
+    },
+    {
+      "obs": "R(u) at horizon",
+      "value": 2.916270893865139e-35
+    },
+    {
+      "obs": "k2 GR/Kerr (theorem)",
+      "value": 0.0
+    },
+    {
+      "obs": "k2 ESD (BH)",
+      "value": 0.0
+    },
+    {
+      "obs": "|k2 ESD - k2 GR| bound",
+      "value": 2.916270893865139e-35
+    },
+    {
+      "obs": "Lambda_BH ESD",
+      "value": 0.0
+    },
+    {
+      "obs": "horizon compactness C",
+      "value": 0.5
+    }
+  ],
+  "bounds": [
+    {
+      "event": "GW170817",
+      "Lambda_upper_90CL": 720.0,
+      "kind": "effective Lambda-tilde (low-spin)",
+      "ref": "Abbott+ 2019 PRX 9 011001",
+      "Lambda_BH_ESD": 0.0,
+      "inside_90CL": true
+    },
+    {
+      "event": "GW190425",
+      "Lambda_upper_90CL": 600.0,
+      "kind": "effective Lambda-tilde",
+      "ref": "Abbott+ 2020 ApJL 892 L3",
+      "Lambda_BH_ESD": 0.0,
+      "inside_90CL": true
+    }
+  ],
+  "fails": []
+}

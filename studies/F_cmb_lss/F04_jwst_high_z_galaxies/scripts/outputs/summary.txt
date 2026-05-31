@@ -1,0 +1,28 @@
+claim                                                                value     target  verdict
+--------------------------------------------------------------------------------------------------
+  1. rho_b,0 = Omega_b * rho_crit,0 identity                             0          0     PASS
+    rho_b,0 = 6.2899e+09 Msun/Mpc^3    [gate: <= 1e-10]
+  2. Boylan-Kolchin 2023 SFE tension reproduced                      1.033        0.2     PASS
+    epsilon_* = rho_*/(rho_b*f_coll) with f_coll=0.0010    [gate: > 0.2 (universal SFE upper limit)]
+  3. h-blindness of rho_b,0 (Thm 1, C1)                                  0          0     PASS
+    rho_b,0 = 6.2899e+09 (omega-var form)    [gate: <= 1e-12]
+  4. locked Omega_b vs Planck: |delta eps_*|/eps small             0.01585          0     PASS
+    eps_lock = 1.033 vs eps_planck = 1.050    [gate: <= 2%]
+
+  --- per-sample epsilon_*_min table ---
+    survey                       z range         rho_*    eps_*
+    Labbe+2023 CEERS             7.0-9.0      6.50e+06    1.033
+    Casey+2024 COSMOS-Web        7.5-10.0     2.50e+06    0.397
+    Xiao+2024 FRESCO             5.0-9.0      1.00e+07    1.590
+
+  --- cross-anchor (lock vs Planck) ---
+    rho_b0 (esd_core lock) [Msun/Mpc^3]      6.2899e+09
+    rho_b0 (Planck fit)    [Msun/Mpc^3]      6.1902e+09
+    Omega_b (lock)                           +5.0094e-02
+    Omega_b (Planck)                         +4.9300e-02
+    epsilon_* (lock)                         1.0334e+00
+    epsilon_* (Planck)                       1.0501e+00
+    delta epsilon_* (lock - Planck)          -1.6648e-02
+    rel relaxation                           +1.5854e-02
+
+  ===> ALL 4 BUDGET CLAIMS REPRODUCED

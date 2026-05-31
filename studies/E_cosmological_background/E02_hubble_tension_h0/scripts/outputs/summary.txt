@@ -1,0 +1,54 @@
+=== Study 08: ESD Hubble-tension paper reproduction ===
+
+  Verifies 5 quantitative claims of hubble_paper_v2:
+
+  claim                                                  value      target   verdict
+  ----------------------------------------------------------------------------------
+  1. bridge inversion a0 -> H0                           67.28       67.28      PASS
+    rel_err = -4.717e-06    [gate: |rel_err| <= 5e-03]
+  2. Identity (C): 3 Om_DM+Om_b = (18/pi) Om_L^2 Om_m       0.847       0.847      PASS
+    rel_diff = +1.311e-16    [gate: |rel_diff| <= 1e-04]
+  3. h-blindness Thm 1 on {C1, C4, C7}               1.079e-11           0      PASS
+    per-child = ['+1.08e-11', '+0.00e+00', '+0.00e+00']    [gate: max <= 1e-08]
+  4. combined 6-channel drift budget                      0.12        0.12      PASS
+    gap_ratio = 47.3x required    [gate: budget <= 0.20]
+  5. predicted SH0ES Delta mu_host                      0.1859        0.17      PASS
+    abs_err = +0.016    [gate: |abs_err| <= 0.20]
+
+--- 6-channel drift budget ---
+  Ch1: Disformal photons                 max |dH0| =   1.20e-01  km/s/Mpc  (active)
+  Ch2: Running alpha at recombination    max |dH0| =   7.00e-09  km/s/Mpc  (active)
+  Ch3: Newton constant drift             max |dH0| =   1.40e-06  km/s/Mpc  (active)
+  Ch4: N_eff / r_s / w / Omega_K         max |dH0| =   0.00e+00  km/s/Mpc  (structurally absent)
+  Ch5: Bridge x local void               max |dH0| =  ruled out  km/s/Mpc  (ruled out by SPARC)
+  Ch6: EFE on Cepheid stellar structure  max |dH0| =   1.00e-12  km/s/Mpc  (active)
+  COMBINED (finite caps): 1.200e-01 km/s/Mpc
+  Required SH0ES gap:     5.68 km/s/Mpc
+  Budget shortfall:       47.3x
+
+--- Multi-anchor H_0 table (pull = (H_0_anchor - H_0_ESD)/sigma) ---
+  ESD bridge prediction: H_0 = 67.28 km/s/Mpc
+
+  [cmb]
+      Planck 2018 (TT,TE,EE+lowE+lensing)         H_0 = 67.36 +/- 0.54   pull = +0.15
+      ACT-DR4 + WMAP                              H_0 = 67.60 +/- 1.10   pull = +0.29
+      ACT-DR6 (lensing combined)                  H_0 = 68.10 +/- 0.90   pull = +0.91
+      SPT-3G TT/TE/EE                             H_0 = 68.30 +/- 1.50   pull = +0.68
+  [bao_bbn]
+      DESI Y1 BAO + BBN                           H_0 = 68.50 +/- 0.80   pull = +1.53
+      BOSS+eBOSS BAO + BBN                        H_0 = 67.40 +/- 1.10   pull = +0.11
+  [trgb]
+      CCHP TRGB-JWST                              H_0 = 69.85 +/- 1.95   pull = +1.32
+    **EDD TRGB                                    H_0 = 71.50 +/- 1.80   pull = +2.34
+  [lensing]
+    **H0LiCOW (TDCOSMO IV)                        H_0 = 73.30 +/- 1.80   pull = +3.34
+      TDCOSMO + ext (hierarchical)                H_0 = 67.40 +/- 3.50   pull = +0.03
+  [masers]
+    **Megamaser Cosmology Project                 H_0 = 73.90 +/- 3.00   pull = +2.21
+  [gw]
+      GW170817 + EM counterpart                   H_0 = 70.00 +/- 12.00   pull = +0.23
+  [distance]
+    **SH0ES 2022 (Cepheid-SN1a)                   H_0 = 73.04 +/- 1.04   pull = +5.54
+    **SH0ES JWST + HST 2024                       H_0 = 72.60 +/- 2.00   pull = +2.66
+
+  ===> ALL 5 PAPER CLAIMS REPRODUCED

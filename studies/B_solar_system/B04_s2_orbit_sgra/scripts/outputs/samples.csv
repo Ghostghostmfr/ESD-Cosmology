@@ -1,0 +1,7 @@
+point,value
+periastron g (m/s2),2.0376776644133745
+apoastron g (m/s2),0.007626225425155102
+R(u) at periastron,7.55100170313849e-16
+R(u) at apoastron,6.378098192468075e-12
+f_SP_pred,1.0000000000000007
+f_SP_obs (GRAVITY+20),1.1

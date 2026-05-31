@@ -1,0 +1,4 @@
+claim,value,target,units,metric,gate,verdict
+1. GW170817 |eps_0| bound vs paper 6e-15,4.2262911722283854e-16,6e-15,dimensionless,ratio = 7.044e-02 (naive 1.74s/40Mpc bound),ratio <= 5.0,PASS
+2. photon-barrier eps_2_max vs paper 5.9e-19,5.931541002331362e-19,5.9e-19,dimensionless,rel_err = +5.346e-03,|rel_err| <= 0.05,PASS
+3. saturated Delta H_0 from disformal channel,0.11412217122751382,0.12,km/s/Mpc,DA ratio = 0.998306,|Delta H_0| <= 0.20,PASS

@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at BH horizon (62 Msun) <= 1e-12",
+      "value": 9.439438090998141e-35,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. ESD no-hair: scalar amplitude = scalar charge = 0 (bound <= 1e-12)",
+      "value": 9.439438090998141e-35,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. ESD scalar amplitude 0 inside all polarization/mode search bounds",
+      "value": "3/3",
+      "target": "3/3",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. no confirmed (>=5 sigma) scalar mode / non-tensorial detection",
+      "value": "0.0 sigma",
+      "target": "< 5 sigma",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "5. h-blind |dR| at horizon <= 1e-6",
+      "value": 4.6401319748655676e-35,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "obs": "test M (Msun)",
+      "value": 62.0
+    },
+    {
+      "obs": "g_horizon (m/s2)",
+      "value": 245362445921.8195
+    },
+    {
+      "obs": "R(u) at horizon",
+      "value": 9.439438090998141e-35
+    },
+    {
+      "obs": "scalar/tensor amplitude ESD",
+      "value": 0.0
+    },
+    {
+      "obs": "remnant scalar charge ESD",
+      "value": 0.0
+    },
+    {
+      "obs": "|A_scalar - 0| bound",
+      "value": 9.439438090998141e-35
+    },
+    {
+      "obs": "scalar ell=0 QNM freq (Hz) [would-be]",
+      "value": 57.55100239268585
+    },
+    {
+      "obs": "scalar ell=0 1/tau (1/s) [would-be]",
+      "value": 343.40475806653114
+    },
+    {
+      "obs": "max scalar-mode significance (data)",
+      "value": 0.0
+    }
+  ],
+  "searches": [
+    {
+      "search": "GW170814 polarization (tensor vs scalar)",
+      "A_scalar_upper": 1.0,
+      "sigma_claim": 0.0,
+      "ref": "Abbott+ 2017 PRL 119 141101",
+      "A_scalar_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "search": "Isi+ 2019 ringdown spectroscopy (GW150914)",
+      "A_scalar_upper": 1.0,
+      "sigma_claim": 0.0,
+      "ref": "Isi+ 2019 PRL 123 111102",
+      "A_scalar_ESD": 0.0,
+      "inside_bound": true
+    },
+    {
+      "search": "GWTC-3 tests of GR (polarizations)",
+      "A_scalar_upper": 1.0,
+      "sigma_claim": 0.0,
+      "ref": "Abbott+ 2021 PRD 103 122002",
+      "A_scalar_ESD": 0.0,
+      "inside_bound": true
+    }
+  ],
+  "fails": []
+}

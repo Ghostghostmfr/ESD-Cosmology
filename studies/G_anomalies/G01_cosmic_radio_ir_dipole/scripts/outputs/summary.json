@@ -1,0 +1,29 @@
+{
+  "study": "G01_cosmic_radio_ir_dipole",
+  "channel": "MATTER A^2(D) g_munu super-horizon gradient",
+  "verdict": "SUFFICIENT CHANNEL IDENTIFIED",
+  "anchor": {
+    "D_kin_NVSS_alpha0p75": 0.00454885109217791,
+    "D_obs_joint": 0.0154,
+    "D_obs_joint_sigma": 0.0033,
+    "D_excess": 0.01085114890782209,
+    "eta_best": 0.013790133968630772,
+    "eta_sigma": 0.0041937902136498515,
+    "eta_significance": 3.288226941764269
+  },
+  "g_hat_matter_lb": [
+    241,
+    29
+  ],
+  "cross_observable_separations_deg": {
+    "NVSS dipole": 10.758970558298218,
+    "CatWISE dipole": 2.8196066233058197,
+    "Disformal quad-oct (cross-link)": 31.007408658012615,
+    "MW VPOS normal (|sep-90 deg|)": 3.6486278229839115,
+    "M31 GPoA normal (|sep-90 deg|)": 51.018093556904915,
+    "CenA plane normal (|sep-90 deg|)": 27.7394068750598
+  },
+  "n_pass": 5,
+  "n_total": 6,
+  "open_gap": "eta amplitude 8 orders short of naive Starobinsky; needs chameleon-screened beta_m at cosmological scales"
+}

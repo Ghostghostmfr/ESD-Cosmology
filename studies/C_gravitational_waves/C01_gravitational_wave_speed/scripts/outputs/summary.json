@@ -1,0 +1,46 @@
+{
+  "gw170817": {
+    "delta_t_s": 1.74,
+    "D_lum_mpc": 40.0,
+    "naive_bound": 4.2262911722283854e-16,
+    "abbott2017_window": [
+      -3e-15,
+      7e-16
+    ],
+    "paper_eps0_bound": 6e-15
+  },
+  "eps2_max": 5.931541002331362e-19,
+  "delta_H0_max": 0.11412217122751382,
+  "saturated_DA": {
+    "eps0": 6e-15,
+    "eps2": 5.931541002331362e-19,
+    "DA_ratio": 0.9983057872442471,
+    "delta_DA_rel": -0.0016942127557528774,
+    "delta_H0": 0.11412217122751382,
+    "H0_ref": 67.36
+  },
+  "events": [
+    {
+      "name": "GW170817 + GRB170817A",
+      "delta_t_s": 1.74,
+      "D_lum_mpc": 40.0,
+      "ref": "Abbott+ 2017, ApJL 848, L13",
+      "has_em": true
+    },
+    {
+      "name": "GW190425 (BNS, no EM)",
+      "delta_t_s": NaN,
+      "D_lum_mpc": 159.0,
+      "ref": "Abbott+ 2020, ApJL 892, L3",
+      "has_em": false
+    },
+    {
+      "name": "GW230529 (NSBH, no EM)",
+      "delta_t_s": NaN,
+      "D_lum_mpc": 201.0,
+      "ref": "Abbott+ 2024, ApJL 970, L34",
+      "has_em": false
+    }
+  ],
+  "fails": []
+}

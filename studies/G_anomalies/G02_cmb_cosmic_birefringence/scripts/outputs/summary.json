@@ -1,0 +1,62 @@
+{
+  "esd_beta_deg": 0.0,
+  "esd_free_parameters": 0,
+  "structural_audit": {
+    "parity_even_term_present": "-1/4 Z(D) F_{munu} F^{munu}",
+    "parity_odd_term_present": null,
+    "post_hoc_g(D)F_Ftilde": "excluded by Q9, Q10 (Higginson 2026)",
+    "axion_from_d_mu_D": "explicitly excluded",
+    "free_parameters": 0
+  },
+  "gate1_no_parity_odd": true,
+  "gate2_post_hoc_forbidden": true,
+  "measurements": [
+    {
+      "name": "Planck PR3 (Minami & Komatsu 2020)",
+      "beta_deg": 0.35,
+      "sigma_deg": 0.14,
+      "esd_beta_deg": 0.0,
+      "tension_sigma": 2.4999999999999996,
+      "gate3_within_3sigma": true,
+      "reference": "Minami & Komatsu 2020, PRL 125 221301 (2011.11254)",
+      "notes": "First detection via miscalibration-marginalising estimator"
+    },
+    {
+      "name": "Planck PR4 NPIPE (Eskilt 2022)",
+      "beta_deg": 0.3,
+      "sigma_deg": 0.11,
+      "esd_beta_deg": 0.0,
+      "tension_sigma": 2.727272727272727,
+      "gate3_within_3sigma": true,
+      "reference": "Eskilt 2022, A&A 662 A10 (2201.13347)",
+      "notes": "NPIPE reprocessing, frequency-independence checked"
+    },
+    {
+      "name": "Planck PR4 + WMAP joint (Eskilt & Komatsu 2023)",
+      "beta_deg": 0.342,
+      "sigma_deg": 0.094,
+      "esd_beta_deg": 0.0,
+      "tension_sigma": 3.638297872340426,
+      "gate3_within_3sigma": false,
+      "reference": "Eskilt & Komatsu 2023, PRL 130 121301 (2205.13962)",
+      "notes": "Joint analysis, most precise currently published"
+    }
+  ],
+  "gate3_all_within_3sig": false,
+  "gate4_reported": true,
+  "forecasts": {
+    "Simons Observatory LAT": {
+      "sigma_deg": 0.1,
+      "discovery_sigma_at_0p342": 3.42
+    },
+    "LiteBIRD": {
+      "sigma_deg": 0.05,
+      "discovery_sigma_at_0p342": 6.84
+    },
+    "CMB-S4": {
+      "sigma_deg": 0.02,
+      "discovery_sigma_at_0p342": 17.1
+    }
+  },
+  "verdict": "HONEST NEGATIVE FALSIFIER CANDIDATE: ESD predicts beta = 0 exactly with no free parameter, derived from (a) the parent action's parity-even Z(D) F^2 photon coupling and (b) the strong-CP-no-axion structural exclusion of any g(D) F F~ addition. The most precise current measurement (Planck PR4 + WMAP joint (Eskilt & Komatsu 2023)) reports beta = 0.342 +/- 0.094 deg, a 3.64-sigma tension. At least one measurement exceeds 3 sigma vs ESD's beta = 0 prediction; ESD's parity-odd photon-sector exclusion is under direct tension."
+}

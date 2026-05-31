@@ -1,0 +1,49 @@
+{
+  "claims": [
+    {
+      "claim": "1. median V_pred/V_obs in [0.8,1.2]",
+      "value": 0.9544798916735451,
+      "target": "[0.8, 1.2]",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. both sources within 0.1 dex",
+      "value": 0.06179311692711177,
+      "target": 0.1,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. both sources within 3 sigma",
+      "value": 1.259937830620812,
+      "target": 3.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. BTFR scaling V_pred ~ H0^(1/4) verified",
+      "value": 0.0,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "name": "WLM",
+      "M_b": 74000000.0,
+      "V_obs": 38.0,
+      "V_pred": 32.96024867751675,
+      "ratio": 0.8673749651978092,
+      "dex": 0.06179311692711177,
+      "nsigma": 1.259937830620812
+    },
+    {
+      "name": "DDO 154",
+      "M_b": 300000000.0,
+      "V_obs": 49.0,
+      "V_pred": 46.76951469200371,
+      "ratio": 0.9544798916735451,
+      "dex": 0.02023321659164367,
+      "nsigma": 0.7434951026654298
+    }
+  ],
+  "fails": []
+}

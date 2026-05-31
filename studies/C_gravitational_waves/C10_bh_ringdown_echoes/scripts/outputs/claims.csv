@@ -1,0 +1,6 @@
+claim,value,target,verdict
+1. R(u) at BH horizon (62 Msun) <= 1e-12,9.439438090998141e-35,1e-12,PASS
+2. ESD classical-horizon: reflectivity = echo amp = 0 (bound <= 1e-12),9.439438090998141e-35,1e-12,PASS
+3. ESD reflectivity 0 inside all echo-search upper bounds,3/3,3/3,PASS
+4. no confirmed (>=5 sigma) echo detection in data,2.5 sigma,< 5 sigma,PASS
+5. h-blind |dR| at horizon <= 1e-6,4.6401319748655676e-35,1e-06,PASS

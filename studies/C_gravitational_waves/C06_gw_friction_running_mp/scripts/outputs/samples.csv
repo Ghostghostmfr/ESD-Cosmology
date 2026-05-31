@@ -1,0 +1,6 @@
+obs,value
+alpha_M ESD,0.0
+ratio dL_GW/dL_EM ESD,1.0
+ratio dL_GW/dL_EM obs,1.076167076167076
+ratio 1-sigma,0.1360941199965938
+LVK alpha_M 90% bound,6.6

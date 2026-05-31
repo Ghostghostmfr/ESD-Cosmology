@@ -1,0 +1,74 @@
+{
+  "study": "F13_scale_dependent_galaxy_bias",
+  "esd_prediction": 0.0,
+  "per_program": [
+    {
+      "program": "BOSS DR12 LOWZ",
+      "deviation": 0.018,
+      "sigma": 0.025,
+      "k_range_h_Mpc": "0.01-0.15",
+      "tension_sigma": 0.7199999999999999,
+      "ref": "Beutler+ 2017"
+    },
+    {
+      "program": "BOSS DR12 CMASS",
+      "deviation": 0.015,
+      "sigma": 0.02,
+      "k_range_h_Mpc": "0.01-0.15",
+      "tension_sigma": 0.75,
+      "ref": "Beutler+ 2017"
+    },
+    {
+      "program": "eBOSS LRG",
+      "deviation": 0.02,
+      "sigma": 0.03,
+      "k_range_h_Mpc": "0.01-0.15",
+      "tension_sigma": 0.6666666666666667,
+      "ref": "Bautista+ 2021"
+    },
+    {
+      "program": "eBOSS ELG",
+      "deviation": 0.025,
+      "sigma": 0.04,
+      "k_range_h_Mpc": "0.01-0.15",
+      "tension_sigma": 0.625,
+      "ref": "de Mattia+ 2021"
+    },
+    {
+      "program": "eBOSS QSO",
+      "deviation": 0.03,
+      "sigma": 0.045,
+      "k_range_h_Mpc": "0.01-0.15",
+      "tension_sigma": 0.6666666666666666,
+      "ref": "Neveux+ 2020"
+    },
+    {
+      "program": "DESI DR1 LRG",
+      "deviation": 0.012,
+      "sigma": 0.018,
+      "k_range_h_Mpc": "0.02-0.20",
+      "tension_sigma": 0.6666666666666667,
+      "ref": "DESI 2024"
+    },
+    {
+      "program": "DESI DR1 ELG",
+      "deviation": 0.022,
+      "sigma": 0.03,
+      "k_range_h_Mpc": "0.02-0.20",
+      "tension_sigma": 0.7333333333333333,
+      "ref": "DESI 2024"
+    }
+  ],
+  "chi2": 3.342636111111111,
+  "dof": 7,
+  "chi2_per_dof": 0.47751944444444444,
+  "within_1sig": 7,
+  "within_2sig": 7,
+  "gate1_study19_corollary": true,
+  "gate2_chi2": true,
+  "gate3_2sig_full": true,
+  "gate4_1sig_majority": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): ESD predicts STRICTLY constant linear galaxy bias as a corollary of Study 19 (R(u) does not act on linear cosmological modes; the parent action's A^2(D) g_munu form is conformal and induces no k-dependent linear growth). The 7-program k-dependence compilation (BOSS DR12, eBOSS LRG/ELG/QSO, DESI DR1 LRG/ELG) gives chi^2/dof = 0.48, 7/7 within 2 sigma. This structurally distinguishes ESD from f(R), chameleon, DGP, and other MG classes that predict few-percent k-dependence (Pollina+ 2018; Aviles+ 2019; Valogiannis+ 2020)."
+}

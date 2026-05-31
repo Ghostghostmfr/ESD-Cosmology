@@ -1,0 +1,9 @@
+obs,value
+test M (Msun),62.0
+g_horizon (m/s2),245362445921.8195
+R(u) at horizon,9.439438090998141e-35
+wall reflectivity ESD,0.0
+echo amplitude ESD,0.0
+|R_wall - 0| bound,9.439438090998141e-35
+Planck-surface echo delay (s) [would-be],0.055920602122204614
+max echo significance (data),2.5

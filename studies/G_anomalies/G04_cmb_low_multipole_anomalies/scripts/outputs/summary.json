@@ -1,0 +1,44 @@
+{
+  "study": "G04_cmb_low_multipole_anomalies",
+  "channels": [
+    "MATTER A^2(D)",
+    "DISFORMAL B(D) dD dD",
+    "PHOTON Z(D) F^2"
+  ],
+  "verdict": "STRONG CLOSURE (3/3 channels)",
+  "g_hat_matter_lb": [
+    241,
+    29
+  ],
+  "g_hat_photon_lb": [
+    41,
+    22
+  ],
+  "cross_channel_sep_deg": 54.520253977899685,
+  "hemi_amplitude": {
+    "xi_P_starobinsky": 1.632993161855452,
+    "A_hemi_obs": 0.066,
+    "A_hemi_obs_sigma": 0.021,
+    "A_hemi_pred": 0.03511062096443784,
+    "A_hemi_pred_lower": 0.024432945248539856,
+    "A_hemi_pred_upper": 0.04578829668033582,
+    "delta_in_sigma": -1.4709228112172459,
+    "ratio_pred_over_obs": 0.5319791055217854
+  },
+  "disformal_quad_oct_sep_deg": 31.007408658012615,
+  "photon_axis_sep_deg": 0.0,
+  "channel_verdicts": {
+    "matter_amplitude": "PASS",
+    "disformal_axis": "PASS",
+    "photon_axis": "PASS"
+  },
+  "excluded_topological": {
+    "cold_spot_from_g_matter_deg": 89.90157571389275
+  },
+  "open": [
+    "eta amplitude derivation gap (shared with Study 25)",
+    "Quadrupole suppression - subleading in gradient channel",
+    "Cold Spot - not a gradient feature",
+    "Parity asymmetry - not a gradient feature"
+  ]
+}

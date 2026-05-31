@@ -1,0 +1,81 @@
+{
+  "study": "F10_ksz_pairwise_velocity",
+  "framework_lock": {
+    "Omega_m": 0.31574,
+    "sigma_8": 0.8111,
+    "A_kSZ_predicted": 1.0
+  },
+  "per_measurement": [
+    {
+      "label": "Hand+ 2012",
+      "A_obs": 1.0,
+      "sigma": 0.3,
+      "detection_snr": 3.8,
+      "tension_sigma": 0.0,
+      "ref": "PRL 109, 041101 (ACT eq. survey x BOSS DR9 LRG, first detection)"
+    },
+    {
+      "label": "Soergel+ 2016",
+      "A_obs": 1.15,
+      "sigma": 0.3,
+      "detection_snr": 4.2,
+      "tension_sigma": 0.4999999999999997,
+      "ref": "MNRAS 461, 3172 (SPT-SZ x DES Y1, 7600 deg^2)"
+    },
+    {
+      "label": "De Bernardis+ 2017",
+      "A_obs": 0.9,
+      "sigma": 0.28,
+      "detection_snr": 3.6,
+      "tension_sigma": 0.35714285714285704,
+      "ref": "JCAP 03, 008 (ACT x BOSS DR11 CMASS)"
+    },
+    {
+      "label": "Sugiyama+ 2018",
+      "A_obs": 0.78,
+      "sigma": 0.24,
+      "detection_snr": 3.3,
+      "tension_sigma": 0.9166666666666666,
+      "ref": "MNRAS 473, 2737 (Planck x BOSS DR12 photo-z)"
+    },
+    {
+      "label": "Calafut+ 2021",
+      "A_obs": 1.04,
+      "sigma": 0.19,
+      "detection_snr": 5.5,
+      "tension_sigma": 0.21052631578947387,
+      "ref": "PRD 104, 043502 (ACT DR5 x BOSS DR15)"
+    },
+    {
+      "label": "Schiappucci+ 2023",
+      "A_obs": 1.02,
+      "sigma": 0.2,
+      "detection_snr": 5.0,
+      "tension_sigma": 0.10000000000000009,
+      "ref": "PRD 107, 042004 (SPT-3G x DES Y3, 1500 deg^2)"
+    },
+    {
+      "label": "Hadzhiyska+ 2024",
+      "A_obs": 0.97,
+      "sigma": 0.14,
+      "detection_snr": 7.1,
+      "tension_sigma": 0.21428571428571447,
+      "ref": "PRL 132, 191103 (ACT DR6 x DESI BGS+LRG, 8500 deg^2)"
+    }
+  ],
+  "ensemble": {
+    "A_obs_mean": 0.9785282969789773,
+    "A_obs_sigma": 0.08004876786904153,
+    "tension_sigma": 0.2682327735031488,
+    "within_1sig": 7,
+    "within_2sig": 7,
+    "within_3sig": 7
+  },
+  "gate1_applicability_excluded": true,
+  "gate2_LCDM_identical_prediction": true,
+  "gate3_per_measurement": true,
+  "gate4_ensemble_consistency": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): The kSZ pairwise-velocity v_12(r) at separations 10-150 Mpc/h probes purely linear cosmological modes. By the Study 19 applicability theorem (axiom A1: no bound-system / spectator split for fluctuations of the same field that constitutes the background), R(u) does not act on the linear velocity field, so ESD predicts the LCDM amplitude identically: A_kSZ = 1 with sigma_8 = 0.811 (Planck CMB locked, Study 19) and Omega_m = 0.31574 (Identity B). 7 published pairwise-velocity measurements (Hand+ 2012 through Hadzhiyska+ 2024) yield ensemble A = 0.979 +/- 0.080, lying 0.27 sigma from the framework-locked value with 7/7 within 1 sigma and 7/7 within 2 sigma. No new free parameters are introduced. Forecast SNR ~ 35-130 in Simons Obs/CMB-S4/CMB-HD x DESI/LSST will tighten the test to sub-percent precision on f*sigma_8*tau_bar."
+}

@@ -1,0 +1,9 @@
+obs,value
+test M (Msun),30.0
+g_horizon (m/s2),507082388238.4269
+R(u) at horizon,2.916270893865139e-35
+k2 GR/Kerr (theorem),0.0
+k2 ESD (BH),0.0
+|k2 ESD - k2 GR| bound,2.916270893865139e-35
+Lambda_BH ESD,0.0
+horizon compactness C,0.5

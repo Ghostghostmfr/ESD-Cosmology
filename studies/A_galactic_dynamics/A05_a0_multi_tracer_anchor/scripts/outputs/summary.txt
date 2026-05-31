@@ -1,0 +1,19 @@
+claim                                                                value     target  verdict
+--------------------------------------------------------------------------------------------------
+  1. round-trip a_0 <-> H_0                                              0          0     PASS
+    |H_0 - bridge_inversion(a_0(H_0))| / H_0    [gate: <= 1e-12]
+  2. Planck-mode a_0 matches McGaugh+2016                         0.001212          0     PASS
+    a_0(H_Planck) = 1.2015e-10 vs 1.20e-10 m/s^2    [gate: <= 2%]
+  3. h-blindness of a_0 (Thm 1, C1)                                      0          0     PASS
+    a_0 = 1.1998e-10 m/s^2 (omega-var form)    [gate: |d a_0 / d h| <= 1e-20]
+  4. esd_core.a_zero is single source of truth                           0          0     PASS
+    a_zero(H_Planck) bit-for-bit reproducible across calls    [gate: rel. err = 0]
+
+  --- cross-study a_0 table ---
+    esd_core a_zero(H_planck) [m/s^2]          +1.2015e-10
+    esd_core a_zero(H_SH0ES)  [m/s^2]          +1.3028e-10
+    McGaugh+2016 RAR fit       [m/s^2]         +1.2000e-10
+    rel_err (Planck vs McGaugh)                +1.2117e-03
+    rel_err (SH0ES vs McGaugh)                 +8.5637e-02
+
+  ===> ALL 4 CROSS-ANCHOR CLAIMS REPRODUCED

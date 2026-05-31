@@ -1,0 +1,29 @@
+{
+  "N_total": 175,
+  "grid": {
+    "W": 53,
+    "T": 98,
+    "L": 24,
+    "dchi2": -842.8500000000001
+  },
+  "fixed": {
+    "W": 73,
+    "T": 55,
+    "L": 47,
+    "dchi2": -587.85,
+    "esd_better_rchi2": 106
+  },
+  "gates": {
+    "N_total": true,
+    "grid_W": true,
+    "grid_T": true,
+    "grid_L": true,
+    "grid_dchi2": true,
+    "fixed_W": true,
+    "fixed_T": true,
+    "fixed_L": true,
+    "fixed_dchi2": true,
+    "esd_better_rchi2": true
+  },
+  "overall_pass": true
+}

@@ -1,0 +1,33 @@
+
+=== Study 17: EHT photon-ring shadows (M87* + Sgr A*) ===
+
+  Strong-field test: at the photon sphere r = 3 GM/c²,
+  the Newtonian g is enormous so u = 4 g/a_0 is huge,
+  making the closure-pool correction R(u) ~ 1/u^p ≈ 0.
+  ESD should reproduce GR shadow predictions exactly to
+  any measurable precision, matching EHT observations.
+
+  a_0 (locked)        = 1.2015e-10 m/s^2
+
+claim                                                                value     target  verdict
+--------------------------------------------------------------------------------------------------
+  1. ESD ring diameter matches GR (strong-field)                         0      1e-06     PASS
+    max |θ_ESD - θ_GR|/θ_GR over M87*, Sgr A*    [gate: <= 1e-06]
+  2. EHT measurements consistent with ESD/GR                        0.7672          2     PASS
+    max |θ_ESD - θ_obs|/θ_err over M87*, Sgr A*    [gate: <= 2σ]
+  3. Closure correction R(u) negligible at photon sphere         3.329e-21      1e-10     PASS
+    max R(u_photon_sphere)    [gate: <= 1e-10]
+  4. h-blindness of θ_ring (Thm 1 via a_0)                               0      1e-15     PASS
+    max |Δθ(H0_lo,H0_hi)|/θ_GR    [gate: <= 1e-15]
+
+  --- per-source table ---
+    M87*    : θ_obs = 42.00 ± 3.00 μas
+             θ_GR  = 39.6983 μas
+             θ_ESD = 39.6983 μas  (rel vs GR = 0.00e+00)
+             R(u_ps) = 3.329e-21     0.77σ from obs
+    Sgr A*  : θ_obs = 51.80 ± 2.30 μas
+             θ_GR  = 51.5070 μas
+             θ_ESD = 51.5070 μas  (rel vs GR = 0.00e+00)
+             R(u_ps) = 2.257e-26     0.13σ from obs
+
+  ===> ALL 4 EHT CLAIMS REPRODUCED

@@ -1,7 +1,9 @@
 # Adding a New Study
 
 Each study is a fully self-contained subfolder under `studies/`.
-Use the existing `01_linear_cosmology_disco/` folder as a template.
+Use the existing `01_linear_cosmology_disco/` folder as a template,
+and follow `docs/study_theme.md` for the public-facing section order,
+tone, and figure style used by the post-Study-22 additions.
 
 ## Layout
 

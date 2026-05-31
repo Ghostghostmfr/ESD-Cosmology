@@ -1,0 +1,29 @@
+=== Study 02: SPARC BTFR low-acceleration slope ===
+  N (all SPARC)         : 135
+  N (Q==1)              : 87
+  N (deep regime kept)  : 9
+  Locked a_0 [m/s^2]    : 1.2015e-10
+  Cut threshold [m/s^2] : 6.0073e-11
+
+  --- deep-regime regression (g < 0.5 * a_0) ---
+  slope        : 0.2206
+  stderr       : 0.0403
+  95% CI       : [0.1416, 0.2996]
+  R^2          : 0.8107
+  intercept    : -0.2202
+
+  --- acceptance (standard tension grading) ---
+  predicted slope         : 0.250
+  tension                 : 0.73 sigma
+  predicted in 95% CI     : True
+  verdict (deep cut)      : CONSISTENT
+
+  --- cut sensitivity (g < frac * a_0) ---
+    grading: CONSISTENT (<=2 sigma) | TENSION (2-3) | INCONSISTENT (>3)
+    frac= 0.25  N=  0  (insufficient N)
+    frac=  0.5  N=  9  slope=0.221 +/- 0.040  R^2=0.811  tension=0.73 sigma  -> CONSISTENT
+    frac=  1.0  N= 35  slope=0.224 +/- 0.022  R^2=0.758  tension=1.20 sigma  -> CONSISTENT
+    frac=  2.0  N= 59  slope=0.245 +/- 0.009  R^2=0.927  tension=0.53 sigma  -> CONSISTENT
+    frac= 10.0  N= 87  slope=0.260 +/- 0.008  R^2=0.924  tension=1.21 sigma  -> CONSISTENT
+
+  Overall verdict (worst across all fit cuts): CONSISTENT

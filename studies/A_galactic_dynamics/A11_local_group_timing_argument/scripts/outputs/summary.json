@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "claim": "1. Newton M_LG in [3, 6]e12 Msun (canonical range)",
+      "value": 4179562835693.3594,
+      "target_lo": 3000000000000.0,
+      "target_hi": 6000000000000.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. ESD M_b in [0.8, 3]e11 Msun (LG baryon budget)",
+      "value": 119575611114.50195,
+      "target_lo": 80000000000.0,
+      "target_hi": 300000000000.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. R(u) at orbital scale >= 10 (cluster-additive regime)",
+      "value": 32.65396373323042,
+      "target_lo": 10.0,
+      "target_hi": Infinity,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blindness of M_b_ESD (Thm 1, C1)",
+      "value": 0.0,
+      "target_lo": 0.0,
+      "target_hi": 0.001,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "r_today_kpc": 770.0,
+      "v_radial_kms": -109.4,
+      "t_age_gyr": 13.787,
+      "M_LG_newton_msun": 4179562835693.3594,
+      "M_LG_esd_msun": 119575611114.50195,
+      "M_baryon_obs_msun": 180000000000.0,
+      "R_at_orbit": 32.65396373323042
+    }
+  ],
+  "fails": []
+}

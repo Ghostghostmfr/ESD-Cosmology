@@ -1,0 +1,51 @@
+{
+  "claims": [
+    {
+      "claim": "1. predicted |alpha_M| <= 1e-12 (tensor = GR)",
+      "value": 0.0,
+      "target": 1e-12,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. dL_GW/dL_EM at GW170817 within 1 sigma of 1",
+      "value": 0.5596647097536793,
+      "target": 1.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. predicted alpha_M inside LVK O3 90% CL",
+      "value": 0.0,
+      "target": 6.6,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind |d alpha_M| <= 1e-12",
+      "value": 0.0,
+      "target": 1e-12,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "obs": "alpha_M ESD",
+      "value": 0.0
+    },
+    {
+      "obs": "ratio dL_GW/dL_EM ESD",
+      "value": 1.0
+    },
+    {
+      "obs": "ratio dL_GW/dL_EM obs",
+      "value": 1.076167076167076
+    },
+    {
+      "obs": "ratio 1-sigma",
+      "value": 0.1360941199965938
+    },
+    {
+      "obs": "LVK alpha_M 90% bound",
+      "value": 6.6
+    }
+  ],
+  "fails": []
+}

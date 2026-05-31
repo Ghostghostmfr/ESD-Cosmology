@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. R(u) at stellar interior <= 1e-12,1.1043515639438183e-21,1e-12,PASS
+2. Solar Delta_nu within 5 sigma,0.09000000000000341,5.0,PASS
+3. Sirius B v_gr within 1 sigma,0.052083333333333336,1.0,PASS
+4. h-blind |dDelta_nu| <= 1e-6,0.0,1e-06,PASS

@@ -1,0 +1,20 @@
+{
+  "study": "G03_satellite_plane_anomaly",
+  "channel": "MATTER A^2(D) g_munu perpendicularity prediction",
+  "verdict": "PARTIAL CLOSURE (2 of 3 hosts)",
+  "g_hat_matter_lb": [
+    241,
+    29
+  ],
+  "perpendicularity_deviations_deg": {
+    "MW VPOS": 3.6486278229839115,
+    "M31 GPoA": 51.018093556904915,
+    "CenA plane": 27.7394068750598
+  },
+  "n_pass_of_3": 2,
+  "n_clean_pass_of_clean": [
+    2,
+    2
+  ],
+  "open_gap": "xi_LSS derived from linear tidal alignment, ~2.6 in [0.9, 4.3]"
+}

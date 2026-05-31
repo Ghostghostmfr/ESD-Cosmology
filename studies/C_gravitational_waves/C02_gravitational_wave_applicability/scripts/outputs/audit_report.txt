@@ -1,0 +1,47 @@
+
+=== Study 21: ESD gravitational-wave derivation (vacuum-tensor applicability) ===
+
+  Second companion to Study 19.  Axioms (A1)-(A3) applied to GWs.
+  A gravitational wave is a tensor perturbation h_{mu nu} of the
+  background metric, propagating at c in vacuum via the
+  linearized Einstein equations.  GW is NOT a localized
+  massive subsystem (A1 fails) and has NO proper acceleration
+  of an associated mass (A2 fails).  R(u) cannot dress
+  the propagation.
+
+  Consequences (this study tests them):
+    * c_GW = c exactly (matches GW170817 to < 3e-15)
+    * Two tensor polarizations only (no scalar/vector modes)
+    * GW amplitude h ~ 1/D_L with LambdaCDM D_L (from Study 20)
+    * Standard-siren H_0 = LambdaCDM analysis result
+
+claim                                                                          value       target  verdict
+--------------------------------------------------------------------------------------------------------------
+  1. R(u) does NOT apply to GW propagation in vacuum                           false must_be_false     PASS
+    applicability axioms (A1),(A2) for GWs    [gate: R(u)_applies == False]
+  2. c_GW = c (GW170817 multimessenger speed bound)                                0     <= 3e-15     PASS
+    |c_GW - c| / c    [gate: <= 3e-15]
+  3. LIGO standard-siren H_0 consistent with ESD-locked H_0                     0.22       <= 2.0     PASS
+    |H_0_Planck - H_0_LIGO_SS| / err_LIGO_SS    [gate: <= 2.0 sigma]
+  4. h-blindness of GW observables (Thm 1)                                         0     <= 1e-15     PASS
+    |c_GW(h_lo) - c_GW(h_hi)| / c    [gate: <= 1e-15]
+
+  --- GW170817 multimessenger ---
+    Observed GW-GRB delay:        1.74 +- 0.05 s
+    ESD propagation contribution: 0 s   (predicted: 0)
+    Source-side delay attribution: 1.74 s   (consistent with GRB jet delay)
+    Speed bound from this:        |c_GW - c|/c < ~3e-15
+
+  --- Standard-siren H_0 (LIGO Abbott+2017) ---
+    GW170817 D_L (LIGO):          40.0 +- 8/14 Mpc
+    NGC 4993 z_em - pec.vel.:      derived
+    LIGO-published H_0 SS:        70.0 +12.0/-8.0 km/s/Mpc
+    ESD-locked H_0 (Planck mode): 67.36 km/s/Mpc
+    Consistency:                  0.22 sigma
+
+  ===> ALL 4 GW CLAIMS PASS
+
+  Framework-native statement: ESD predicts c_GW = c, two
+  tensor polarizations only, and standard LambdaCDM scaling
+  of h(D_L) at all redshifts.  Any GW-EM speed mismatch or
+  detection of a scalar/vector GW polarization would falsify.

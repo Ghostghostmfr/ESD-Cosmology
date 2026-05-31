@@ -1,0 +1,5 @@
+claim,value,target,verdict
+"1. Median theta_pred/theta_obs in [0.5, 2.0]",1.1903759090274504,"[0.5, 2.0]",PASS
+2. >= 6/7 lenses within +/-0.50 dex of observed,7,6,PASS
+"3. Median (f_DM_obs - f_DM_ESD) in [0.2, 0.5] (honest scope gap)",0.35177992297298893,"[0.2, 0.5]",PASS
+"4. h-blindness of theta_E (Thm 1, C1)",0.0,1e-20,PASS

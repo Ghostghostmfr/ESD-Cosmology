@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) does NOT apply to linear cosmological perturbations",
+      "metric": "applicability axiom (A1) for linear delta",
+      "value": "false",
+      "target": "must_be_false",
+      "gate": "R(u)_applies == False",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. R(u) DOES apply to virialized halos (consistency)",
+      "metric": "applicability axiom (A1) for delta >> 1",
+      "value": "true",
+      "target": "must_be_true",
+      "gate": "R(u)_applies == True",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. ESD-predicted S_8 = 0.832 matches Planck CMB",
+      "metric": "|S_8_ESD - S_8_Planck| / err_Planck",
+      "value": "0.00778",
+      "target": "<= 1.0",
+      "gate": "<= 1.0 sigma",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blindness of S_8 prediction (Identity B C2)",
+      "metric": "|S_8(h_lo) - S_8(h_hi)| at fixed sigma_8",
+      "value": "0",
+      "target": "<= 1e-15",
+      "gate": "<= 1e-15",
+      "verdict": "PASS"
+    }
+  ],
+  "fails": [],
+  "sigma8_ESD": 0.8111,
+  "S8_ESD": 0.832101188341607,
+  "S8_Planck": 0.832,
+  "S8_WL_joint": 0.7719,
+  "sigma_vs_planck": 0.007783718585153442,
+  "sigma_vs_wl": 5.523044801982286,
+  "linear_applicability": {
+    "A1_bound_system_locality": false,
+    "A2_acceleration_definedness": "ambiguous",
+    "A3_closure_universality": true,
+    "Ru_applies": false,
+    "rationale": "delta(x,t) is a fluctuation of the same matter field that constitutes the background; no system/spectator split exists at linear order, so axiom (A1) fails."
+  },
+  "nonlinear_applicability": {
+    "A1_bound_system_locality": true,
+    "A2_acceleration_definedness": true,
+    "A3_closure_universality": true,
+    "Ru_applies": true,
+    "rationale": "Halo is a localized bound subsystem against a separated cosmological background with well-defined g.  All three axioms hold; R(u) applies as in Studies 09-16."
+  },
+  "naive_alt_check": {
+    "R_m": 3.6647002155479424e+23,
+    "g": 2.2362000991201045e-13,
+    "u": 0.007444979277501559,
+    "R_of_u_naive": 18.71873776369994,
+    "would_have_boosted_sigma8_by": 4.440578539300925
+  }
+}

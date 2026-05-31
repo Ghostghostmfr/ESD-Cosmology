@@ -1,0 +1,5 @@
+claim,value,target,units,metric,gate,verdict
+1. Bullet East M_tot/M_gas reproduced,0.004167150963320106,0.0,rel. err,ESD=6.390 vs obs=6.364,<= 30%,PASS
+2. Joint 4-merger M_tot/M_gas fit,0.4049357912874366,0.0,mean |resid|/σ,"4 mergers: Bullet E, Bullet Main, MACS J0025, A520",<= 2.0σ,PASS
+"3. h-blindness of M_tot/M_b (Thm 1, C4)",0.0,0.0,rel. err,M_tot/M_b = 6.9173 (bit-identical across h),<= 1e-20,PASS
+4. Dark sector dominates (offset structurally allowed),0.8031259489486622,0.8,fraction,min over 4 mergers of (Omega_DM/Omega_b) / (M_tot/M_b),>= 80%,PASS

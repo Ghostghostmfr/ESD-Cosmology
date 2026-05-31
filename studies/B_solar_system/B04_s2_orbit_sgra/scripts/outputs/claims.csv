@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. R(u_peri) <= 1e-6,7.55100170313849e-16,1e-06,PASS
+2. f_SP within 1 sigma of GRAVITY+ 2020,0.5263157894736812,1.0,PASS
+3. R(u_apo) <= 1e-4,6.378098192468075e-12,0.0001,PASS
+4. h-blind |df_SP| <= 1e-6,2.220446049250313e-16,1e-06,PASS

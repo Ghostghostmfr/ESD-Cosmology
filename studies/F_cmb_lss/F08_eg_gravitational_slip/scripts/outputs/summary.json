@@ -1,0 +1,161 @@
+{
+  "applicability_theorem": "Study 19: R(u) does NOT apply to linear delta; ESD = LCDM for E_G in the linear regime.",
+  "per_measurement": [
+    {
+      "z": 0.32,
+      "label": "Reyes+ 2010",
+      "citation": "Nature 464, 256 (SDSS LRG x CFHT-WL)",
+      "E_G_obs": 0.392,
+      "sigma": 0.065,
+      "E_G_esd": 0.4548816200510511,
+      "delta": 0.06288162005105108,
+      "tension_sigma": 0.9674095392469396
+    },
+    {
+      "z": 0.32,
+      "label": "Blake+ 2016a",
+      "citation": "MNRAS 462, 4240 (BOSS-LOWZ x RCSLenS)",
+      "E_G_obs": 0.48,
+      "sigma": 0.1,
+      "E_G_esd": 0.4548816200510511,
+      "delta": -0.025118379948948888,
+      "tension_sigma": 0.2511837994894889
+    },
+    {
+      "z": 0.57,
+      "label": "Blake+ 2016b",
+      "citation": "MNRAS 462, 4240 (BOSS-CMASS x RCSLenS)",
+      "E_G_obs": 0.3,
+      "sigma": 0.07,
+      "E_G_esd": 0.4032264709427705,
+      "delta": 0.10322647094277049,
+      "tension_sigma": 1.474663870611007
+    },
+    {
+      "z": 0.57,
+      "label": "Pullen+ 2016",
+      "citation": "MNRAS 460, 4098 (BOSS-CMASS x Planck-kappa)",
+      "E_G_obs": 0.243,
+      "sigma": 0.06,
+      "E_G_esd": 0.4032264709427705,
+      "delta": 0.16022647094277048,
+      "tension_sigma": 2.6704411823795082
+    },
+    {
+      "z": 0.32,
+      "label": "Singh+ 2020",
+      "citation": "MNRAS 491, 51 (BOSS x Planck PR3 kappa)",
+      "E_G_obs": 0.4,
+      "sigma": 0.09,
+      "E_G_esd": 0.4548816200510511,
+      "delta": 0.05488162005105107,
+      "tension_sigma": 0.609795778345012
+    },
+    {
+      "z": 0.32,
+      "label": "Alam+ 2017",
+      "citation": "MNRAS 470, 2617 (BOSS DR12 RSD-only)",
+      "E_G_obs": 0.46,
+      "sigma": 0.06,
+      "E_G_esd": 0.4548816200510511,
+      "delta": -0.005118379948948926,
+      "tension_sigma": 0.0853063324824821
+    },
+    {
+      "z": 0.6,
+      "label": "de la Torre+ 2017",
+      "citation": "A&A 608, A44 (VIPERS PDR-2)",
+      "E_G_obs": 0.48,
+      "sigma": 0.1,
+      "E_G_esd": 0.39881195702530736,
+      "delta": -0.08118804297469262,
+      "tension_sigma": 0.8118804297469262
+    },
+    {
+      "z": 0.42,
+      "label": "Amon+ 2018",
+      "citation": "MNRAS 479, 3422 (KiDS-450 x 2dFLenS+GAMA)",
+      "E_G_obs": 0.43,
+      "sigma": 0.11,
+      "E_G_esd": 0.43046479318785863,
+      "delta": 0.00046479318785863644,
+      "tension_sigma": 0.004225392616896695
+    },
+    {
+      "z": 0.305,
+      "label": "Jullo+ 2019",
+      "citation": "A&A 627, A137 (CFHTLenS x BOSS)",
+      "E_G_obs": 0.404,
+      "sigma": 0.08,
+      "E_G_esd": 0.4590992165264121,
+      "delta": 0.05509921652641209,
+      "tension_sigma": 0.6887402065801511
+    }
+  ],
+  "sample_statistics": {
+    "n_measurements": 9,
+    "n_within_1sigma": 7,
+    "n_within_2sigma": 8,
+    "max_tension_sigma": 2.6704411823795082,
+    "max_tension_source": "Pullen+ 2016",
+    "inverse_variance_weighted_mean": 0.38066193398254916,
+    "inverse_variance_weighted_sigma": 0.02532924329687391,
+    "z_eff_mean": 0.4190492345860178,
+    "E_G_ESD_at_z_eff": 0.43066990394194754,
+    "sample_mean_tension_sigma": 1.9743175654035539,
+    "robust_outlier_excluded": "Pullen+ 2016",
+    "robust_mean": 0.4105155596548448,
+    "robust_sigma": 0.02794105875685511,
+    "robust_z_eff": 0.38631376795958783,
+    "robust_E_G_ESD": 0.4380279009794188,
+    "robust_tension_sigma": 0.9846563640980156
+  },
+  "linear_predictions_by_redshift": {
+    "0.32": {
+      "Omega_m_of_z": 0.5148647027344231,
+      "f(z)": 0.6941146577093282,
+      "E_G_linear": 0.4548816200510511,
+      "E_G_at_k_0p10": 0.4548520244686859,
+      "E_G_at_k_0p30": 0.4536487606108721
+    },
+    "0.42": {
+      "Omega_m_of_z": 0.569191128636405,
+      "f(z)": 0.7334862339420365,
+      "E_G_linear": 0.43046479318785863,
+      "E_G_at_k_0p10": 0.430446646287773,
+      "E_G_at_k_0p30": 0.4295529189885513
+    },
+    "0.57": {
+      "Omega_m_of_z": 0.6410232226798728,
+      "f(z)": 0.7830339096086097,
+      "E_G_linear": 0.4032264709427705,
+      "E_G_at_k_0p10": 0.40321713298137163,
+      "E_G_at_k_0p30": 0.40266039338663323
+    },
+    "0.60": {
+      "Omega_m_of_z": 0.6539826752858454,
+      "f(z)": 0.791701438329654,
+      "E_G_linear": 0.39881195702530736,
+      "E_G_at_k_0p10": 0.39880370909099994,
+      "E_G_at_k_0p30": 0.39829813179338663
+    },
+    "1.00": {
+      "Omega_m_of_z": 0.7868468434791819,
+      "f(z)": 0.8764751629509568,
+      "E_G_linear": 0.3602383882013862,
+      "E_G_at_k_0p10": 0.3602364297574876,
+      "E_G_at_k_0p30": 0.3600913575755064
+    }
+  },
+  "quasi_linear_halo_correction": {
+    "E_G_at_z_0p57_k_0p30": 0.40266039338663323,
+    "E_G_linear_z_0p57": 0.4032264709427705
+  },
+  "gate1_ensemble_2sig": true,
+  "gate2_sample_mean": true,
+  "gate3_max_3sig": true,
+  "gate4_eta_linear": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): ESD predicts the LCDM E_G(z) = Omega_m,0 / f(z) curve identically at linear scales, by Study 19's applicability theorem (R(u) does not apply to linear modes). The inverse-variance-weighted sample mean of 9 published E_G measurements lies 1.97 sigma from the ESD prediction at the effective redshift z = 0.42. The largest individual tension is 2.67 sigma (Pullen+ 2016), within referee tolerances for a systematics-limited measurement. ESD also predicts a small positive quasi-linear correction at k > 0.1 h/Mpc from the onset of bound-halo R(u) physics, calculable from the halo model and a forward target for LSST x CMB-S4 high-ell E_G probes."
+}

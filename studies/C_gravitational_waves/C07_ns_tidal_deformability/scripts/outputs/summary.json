@@ -1,0 +1,51 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) at NS surface <= 1e-15",
+      "value": 5.604819712023745e-36,
+      "target": 1e-15,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. Lambda_ESD inside LVC 90% CL [70, 720]",
+      "value": 300.0,
+      "target": "inside",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. ESD/GR ratio (1+R-1) <= 1e-15",
+      "value": 0.0,
+      "target": 1e-15,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blind |dR| <= 1e-6",
+      "value": 2.755153739915908e-36,
+      "target": 1e-06,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "obs": "g_NS surface (m/s2)",
+      "value": 1405255822941.3987
+    },
+    {
+      "obs": "R(u) at NS",
+      "value": 5.604819712023745e-36
+    },
+    {
+      "obs": "Lambda GR (APR)",
+      "value": 300.0
+    },
+    {
+      "obs": "Lambda ESD",
+      "value": 300.0
+    },
+    {
+      "obs": "LVC band [lo, hi]",
+      "value": "[70.0, 720.0]"
+    }
+  ],
+  "fails": []
+}

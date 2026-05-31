@@ -1,0 +1,33 @@
+==============================================================
+ESD vs MOND — Formal Statistical Verdict  (Study 48)
+==============================================================
+
+  Sample:  175 SPARC galaxies
+
+  Grid M/L (best-fit Υ_d, Υ_b):
+    ESD wins   (Δχ² < −1):     53
+    Ties       (|Δχ²| ≤ 1):    98
+    ESD losses (Δχ² > +1):     24
+    Σ Δχ²:                    -842.9
+
+  Fixed M/L (Υ_d=0.5, Υ_b=0.7, zero per-galaxy freedom):
+    ESD wins:                   73
+    Ties:                       55
+    ESD losses:                 47
+    Σ Δχ²:                    -587.9
+    χ²ᵥ(ESD) < χ²ᵥ(MOND):    106 / 175
+
+  Acceptance gates:
+    N_total                       PASS
+    grid_W                        PASS
+    grid_T                        PASS
+    grid_L                        PASS
+    grid_dchi2                    PASS
+    fixed_W                       PASS
+    fixed_T                       PASS
+    fixed_L                       PASS
+    fixed_dchi2                   PASS
+    esd_better_rchi2              PASS
+
+  Overall: PASS
+==============================================================

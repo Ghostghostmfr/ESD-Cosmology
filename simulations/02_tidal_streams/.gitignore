@@ -1,0 +1,6 @@
+snapshots/
+figures_generated/
+data/
+*.pyc
+__pycache__/
+logs_*.txt

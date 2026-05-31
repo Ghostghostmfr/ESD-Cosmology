@@ -1,0 +1,5 @@
+claim,value,target,verdict
+1. PRIMARY D/H within 2 sigma of Cooke+ 2018,0.5708591881166997,2.0,PASS
+2. CLOSURE-POOL D/H within 2 sigma of Cooke+ 2018,1.5674429230140665,2.0,PASS
+3. Both readings Yp within 2 sigma of Aver+ 2021,0.5290230410588028,2.0,PASS
+4. Identity B internal consistency: |Omega_b_CP - Omega_b_PRI| / Omega_b_PRI <= 3%,0.0161095549175205,0.03,PASS

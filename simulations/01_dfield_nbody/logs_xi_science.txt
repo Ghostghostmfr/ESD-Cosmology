@@ -1,0 +1,10 @@
+[xi] profile: science: N=64^3, L=100 Mpc/h, n_steps=400
+[snap] evolving: science: N=64^3, L=100 Mpc/h, n_steps=400, esd=False
+[snap] wrote   : snapshots\science_science_gr_z0.npz  (193.1 s)
+[snap] evolving: science: N=64^3, L=100 Mpc/h, n_steps=400, esd=True
+[snap] wrote   : snapshots\science_science_esd_z0.npz  (247.3 s)
+[xi] figure : figures_generated\xi_compare_science.png
+[xi] r [Mpc/h]   GR xi        ESD xi       lin xi
+      3.44   +1.784e+00  +1.738e+00  +1.694e+00
+      8.67   +3.004e-01  +3.019e-01  +3.969e-01
+     18.17   +4.672e-02  +4.661e-02  +7.778e-02

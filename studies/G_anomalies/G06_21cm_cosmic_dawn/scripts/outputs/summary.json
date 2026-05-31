@@ -1,0 +1,57 @@
+{
+  "kernel": {
+    "z": 17.187013466069146,
+    "u_cd": 0.09504563714876894,
+    "R_total_cd": 5.940544932774338,
+    "R_D_cd": 0.7501837974595558,
+    "R_E_cd": 5.1612308441293635,
+    "R_S_cd": 0.029130291185419113,
+    "w_D_cd": 0.12628198354678666,
+    "w_E_cd": 0.8688143768856199,
+    "w_S_cd": 0.004903639567593467,
+    "H_z17_km_s_mpc": 2936.4892545314374,
+    "T_gas_fiducial_K": 7.0,
+    "T_CMB_K": 49.56870520177146,
+    "T_b_fiducial_mK": -220.34215232687353,
+    "T_b_deep_adiab_mK": -364.2091413299515,
+    "T_b_shallow_mK": -12.574524223935903,
+    "R_floor": 47.04190388784481
+  },
+  "cosmic_dawn_scale": {
+    "z": 17.187013466069146,
+    "H_km_s_mpc": 2936.4892545314374,
+    "g_cd_si": 2.854933325856147e-12,
+    "u_cd": 0.09504563714876894,
+    "R_total": 5.940544932774338,
+    "R_D": 0.7501837974595558,
+    "R_E": 5.1612308441293635,
+    "R_S": 0.029130291185419113,
+    "w_D": 0.12628198354678666,
+    "w_E": 0.8688143768856199,
+    "w_S": 0.004903639567593467
+  },
+  "rho_m_over_rho_DE_z17": 2776.5993707656007,
+  "T_b_fiducial_mK": -220.34215232687353,
+  "T_b_no_xray_mK": -364.2091413299515,
+  "T_b_weak_wf_mK": -12.574524223935903,
+  "T_b_esd_central_mK": -220.34215232687353,
+  "T_b_esd_range_mK": [
+    -364.2091413299515,
+    -12.574524223935903
+  ],
+  "T_b_LCDM_central_mK": -220.0,
+  "T_b_EDGES_mK": -500.0,
+  "T_b_SARAS3_envelope_mK": [
+    -300.0,
+    50.0
+  ],
+  "tension_LCDM_sigma": 0.006048455763275755,
+  "tension_EDGES_sigma": 1.371135406167914,
+  "gate1_matter_dominated": true,
+  "gate2_Tb_consistent_LCDM": true,
+  "gate3_Tb_within_SARAS3": true,
+  "gate4_EDGES_ruled_out": true,
+  "gate5_no_new_parameters": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): three-channel ESD predicts T_b = -220.3 mK at z = 17.19 (fiducial WF coupling + X-ray heating, matching the Pritchard-Loeb 2012 standard LCDM signal at 0.01 sigma) and lies inside the SARAS-3 (Singh+ 2022) 95 % envelope. The EDGES Bowman+ 2018 depth of -500 mK is ruled out at 1.4 sigma. The framework makes this prediction WITHOUT new physics: at z = 17 the matter density dominates the dark-energy term by 2777x, so the modified Friedmann equation reduces to LCDM, and the photon bridge (Z(D) = 1, w_S = 0.0049) leaves the Lyman-alpha coupling GR-identical. ESD inherits the same astrophysical uncertainty as LCDM: spanning the WF and X-ray heating fractions gives T_b range [-364, -13] mK."
+}

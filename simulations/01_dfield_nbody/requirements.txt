@@ -1,0 +1,11 @@
+# Pinned to a verified working set captured 2026-05-30.
+# Update via a fresh `pip freeze` inside a clean venv after any
+# dependency bump, and re-run `make test` before committing.
+numpy==1.26.4
+scipy==1.13.1
+matplotlib==3.8.4
+jax==0.4.30
+jaxlib==0.4.30
+h5py==3.11.0
+pytest==8.2.2
+# esd_core is editable-installed from the repo root; no pin here.

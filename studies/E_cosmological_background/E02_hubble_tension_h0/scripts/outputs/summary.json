@@ -1,0 +1,148 @@
+{
+  "H0_esd_predict": 67.27968266641055,
+  "H0_paper_quote": 67.28,
+  "identity_C": {
+    "lhs": 0.847020980042131,
+    "rhs": 0.8470209800421309,
+    "abs_diff": 1.1102230246251565e-16,
+    "rel_diff": 1.3107385186255173e-16
+  },
+  "h_blindness": {
+    "theta0": [
+      0.6736,
+      0.02237,
+      0.12
+    ],
+    "children": [
+      "child_C1",
+      "child_C4",
+      "child_C7"
+    ],
+    "dR_dh_relative": [
+      1.0785200905716501e-11,
+      0.0,
+      0.0
+    ],
+    "max_abs_dR_dh": 1.0785200905716501e-11,
+    "rank_estimate": 2
+  },
+  "channel_budget": 0.120001407001,
+  "shoes_gap": 5.68,
+  "gap_ratio": 47.33277835611267,
+  "predicted_delta_mu_host": 0.18591601006751746,
+  "anchor_rows": [
+    {
+      "family": "cmb",
+      "anchor": "Planck 2018 (TT,TE,EE+lowE+lensing)",
+      "H0": 67.36,
+      "sigma": 0.54,
+      "pull_vs_esd": 0.1487358029434231,
+      "ref": "Aghanim+ 2020, A&A 641, A6"
+    },
+    {
+      "family": "cmb",
+      "anchor": "ACT-DR4 + WMAP",
+      "H0": 67.6,
+      "sigma": 1.1,
+      "pull_vs_esd": 0.291197575990403,
+      "ref": "Aiola+ 2020, JCAP 12 047"
+    },
+    {
+      "family": "cmb",
+      "anchor": "ACT-DR6 (lensing combined)",
+      "H0": 68.1,
+      "sigma": 0.9,
+      "pull_vs_esd": 0.9114637039882704,
+      "ref": "Madhavacheril+ 2024, ApJ 962, 113"
+    },
+    {
+      "family": "cmb",
+      "anchor": "SPT-3G TT/TE/EE",
+      "H0": 68.3,
+      "sigma": 1.5,
+      "pull_vs_esd": 0.6802115557262974,
+      "ref": "Balkenhol+ 2023, PRD 108, 023510"
+    },
+    {
+      "family": "bao_bbn",
+      "anchor": "DESI Y1 BAO + BBN",
+      "H0": 68.5,
+      "sigma": 0.8,
+      "pull_vs_esd": 1.5253966669868113,
+      "ref": "DESI 2024 VI, arXiv:2404.03002"
+    },
+    {
+      "family": "bao_bbn",
+      "anchor": "BOSS+eBOSS BAO + BBN",
+      "H0": 67.4,
+      "sigma": 1.1,
+      "pull_vs_esd": 0.10937939417223157,
+      "ref": "Alam+ 2021, PRD 103, 083533"
+    },
+    {
+      "family": "distance",
+      "anchor": "SH0ES 2022 (Cepheid-SN1a)",
+      "H0": 73.04,
+      "sigma": 1.04,
+      "pull_vs_esd": 5.538766666912937,
+      "ref": "Riess+ 2022, ApJL 934, L7"
+    },
+    {
+      "family": "distance",
+      "anchor": "SH0ES JWST + HST 2024",
+      "H0": 72.6,
+      "sigma": 2.0,
+      "pull_vs_esd": 2.6601586667947217,
+      "ref": "Riess+ 2024, ApJL 962, L17"
+    },
+    {
+      "family": "trgb",
+      "anchor": "CCHP TRGB-JWST",
+      "H0": 69.85,
+      "sigma": 1.95,
+      "pull_vs_esd": 1.3181114531227915,
+      "ref": "Freedman+ 2024, arXiv:2408.06153"
+    },
+    {
+      "family": "trgb",
+      "anchor": "EDD TRGB",
+      "H0": 71.5,
+      "sigma": 1.8,
+      "pull_vs_esd": 2.3446207408830273,
+      "ref": "Anand+ 2022, ApJ 932, 15"
+    },
+    {
+      "family": "lensing",
+      "anchor": "H0LiCOW (TDCOSMO IV)",
+      "H0": 73.3,
+      "sigma": 1.8,
+      "pull_vs_esd": 3.3446207408830255,
+      "ref": "Wong+ 2020, MNRAS 498, 1420"
+    },
+    {
+      "family": "lensing",
+      "anchor": "TDCOSMO + ext (hierarchical)",
+      "H0": 67.4,
+      "sigma": 3.5,
+      "pull_vs_esd": 0.0343763810255585,
+      "ref": "Birrer+ 2020, A&A 643, A165"
+    },
+    {
+      "family": "masers",
+      "anchor": "Megamaser Cosmology Project",
+      "H0": 73.9,
+      "sigma": 3.0,
+      "pull_vs_esd": 2.2067724445298182,
+      "ref": "Pesce+ 2020, ApJL 891, L1"
+    },
+    {
+      "family": "gw",
+      "anchor": "GW170817 + EM counterpart",
+      "H0": 70.0,
+      "sigma": 12.0,
+      "pull_vs_esd": 0.22669311113245408,
+      "ref": "Abbott+ 2017, Nature 551, 85"
+    }
+  ],
+  "fails": []
+}

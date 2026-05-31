@@ -1,0 +1,6 @@
+label,value
+esd_core a_zero(H_planck) [m/s^2],1.2014540354076285e-10
+esd_core a_zero(H_SH0ES)  [m/s^2],1.3027642925500767e-10
+McGaugh+2016 RAR fit       [m/s^2],1.2e-10
+rel_err (Planck vs McGaugh),0.0012116961730237236
+rel_err (SH0ES vs McGaugh),0.08563691045839729

@@ -18,7 +18,7 @@ the locked dimensionless constants and identities of the
 Energy-Space-Displacement framework.
 
 ```bash
-git clone https://github.com/<user>/esd-cosmology.git
+git clone https://github.com/ghostghostmfr/esd-cosmology.git
 cd esd-cosmology
 python -m venv .venv && source .venv/bin/activate
 pip install -e .[test]

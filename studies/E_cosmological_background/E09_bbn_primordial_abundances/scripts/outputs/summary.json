@@ -1,0 +1,51 @@
+{
+  "claims": [
+    {
+      "claim": "1. PRIMARY D/H within 2 sigma of Cooke+ 2018",
+      "value": 0.5708591881166997,
+      "target": 2.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. CLOSURE-POOL D/H within 2 sigma of Cooke+ 2018",
+      "value": 1.5674429230140665,
+      "target": 2.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. Both readings Yp within 2 sigma of Aver+ 2021",
+      "value": 0.5290230410588028,
+      "target": 2.0,
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. Identity B internal consistency: |Omega_b_CP - Omega_b_PRI| / Omega_b_PRI <= 3%",
+      "value": 0.0161095549175205,
+      "target": 0.03,
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "reading": "primary",
+      "eta10": 6.117090217722879,
+      "DH_pred": 2.544125775643501e-05,
+      "Yp_pred": 0.247086879429688,
+      "DH_obs": 2.527e-05,
+      "Yp_obs": 0.2453,
+      "DH_nsigma": 0.5708591881166997,
+      "Yp_nsigma": 0.5255527734376467
+    },
+    {
+      "reading": "closure-pool",
+      "eta10": 6.215633818520713,
+      "DH_pred": 2.479976712309578e-05,
+      "Yp_pred": 0.24709867833959992,
+      "DH_obs": 2.527e-05,
+      "Yp_obs": 0.2453,
+      "DH_nsigma": 1.5674429230140665,
+      "Yp_nsigma": 0.5290230410588028
+    }
+  ],
+  "fails": []
+}

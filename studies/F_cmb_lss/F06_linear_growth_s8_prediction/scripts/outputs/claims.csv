@@ -1,0 +1,5 @@
+claim,metric,value,target,gate,verdict
+1. R(u) does NOT apply to linear cosmological perturbations,applicability axiom (A1) for linear delta,false,must_be_false,R(u)_applies == False,PASS
+2. R(u) DOES apply to virialized halos (consistency),applicability axiom (A1) for delta >> 1,true,must_be_true,R(u)_applies == True,PASS
+3. ESD-predicted S_8 = 0.832 matches Planck CMB,|S_8_ESD - S_8_Planck| / err_Planck,0.00778,<= 1.0,<= 1.0 sigma,PASS
+4. h-blindness of S_8 prediction (Identity B C2),|S_8(h_lo) - S_8(h_hi)| at fixed sigma_8,0,<= 1e-15,<= 1e-15,PASS

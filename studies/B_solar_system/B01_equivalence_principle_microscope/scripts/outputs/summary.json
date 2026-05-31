@@ -1,0 +1,20 @@
+{
+  "experiment_bound": 2.7e-15,
+  "experiment_forecast_m2": 1e-17,
+  "esd_inputs": {
+    "beta_m_sq_screening": 1e-09,
+    "beta_Z_over_beta_m": 2.6e-11,
+    "delta_f_em_pt_ti": 0.001,
+    "eta_pt_ti_esd": 2.6000000000000003e-23
+  },
+  "eta_esd_pt_ti": 2.6000000000000003e-23,
+  "headroom_vs_2022": 103846153.84615384,
+  "headroom_vs_m2": 384615.3846153846,
+  "orders_below_2022": 8.01639041618817,
+  "orders_below_m2": 5.585026652029182,
+  "gate1_below_2022": true,
+  "gate2_below_m2": true,
+  "gate3_cassini_consistent": true,
+  "gate4_reported": true,
+  "verdict": "PASS: ESD predicts |eta_Pt-Ti| ~ 2.6e-23, 8 orders below the MICROSCOPE 2022 bound and 6 orders below the projected MICROSCOPE-2 sensitivity. The screening factor beta_m^2 ~ 1e-09 that delivers GR-PPN recovery in the solar system also delivers automatic EP safety. ESD is unobservable by any currently planned WEP experiment; only an improvement of >6 orders in eta-sensitivity would test it."
+}

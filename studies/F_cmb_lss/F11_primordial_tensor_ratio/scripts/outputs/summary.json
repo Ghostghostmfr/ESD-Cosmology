@@ -1,0 +1,70 @@
+{
+  "study": "F11_primordial_tensor_ratio",
+  "framework_prediction": {
+    "r_best_anchor": 0.0033,
+    "r_range": [
+      0.0024,
+      0.0048
+    ],
+    "n_s_predicted": 0.9654166666666667,
+    "epsilon_60": 0.00020833333333333335,
+    "eta_60": -0.016666666666666666,
+    "n_t_predicted": -0.0004166666666666667
+  },
+  "upper_limit_tests": [
+    {
+      "label": "BICEP/Keck BK18",
+      "limit": 0.036,
+      "cleared": true,
+      "margin_factor": 10.909090909090908,
+      "ref": "Ade+ 2021, PRL 127, 151301 (with Planck+WMAP, r_{0.05})"
+    },
+    {
+      "label": "ACT DR4 + WMAP",
+      "limit": 0.114,
+      "cleared": true,
+      "margin_factor": 34.54545454545455,
+      "ref": "Aiola+ 2020 ApJ; less stringent, foreground-dominated"
+    }
+  ],
+  "forecast_tests": [
+    {
+      "label": "BICEP3 / Keck (proj. 2027)",
+      "sigma_r": 0.003,
+      "snr_at_pred": 1.0999999999999999,
+      "ref": "BICEP/Keck Stage-4 collaboration projections (sigma_r)"
+    },
+    {
+      "label": "Simons Observatory",
+      "sigma_r": 0.003,
+      "snr_at_pred": 1.0999999999999999,
+      "ref": "Ade+ 2019 JCAP 02, 056 (LAT + SAT combined)"
+    },
+    {
+      "label": "LiteBIRD",
+      "sigma_r": 0.001,
+      "snr_at_pred": 3.3,
+      "ref": "Hazumi+ 2022 PTEP, ISAS-JAXA L-class mission"
+    },
+    {
+      "label": "CMB-S4",
+      "sigma_r": 0.0005,
+      "snr_at_pred": 6.6,
+      "ref": "Abazajian+ 2022 ApJ 926, 54 (Stage-IV ground)"
+    },
+    {
+      "label": "PICO",
+      "sigma_r": 0.0001,
+      "snr_at_pred": 33.0,
+      "ref": "Hanany+ 2019 NASA Probe-class concept"
+    }
+  ],
+  "n_s_tension_sigma": 0.12301587301588592,
+  "gate1_parent_action_lock": true,
+  "gate2_below_upper_limits": true,
+  "gate3_n_s_consistency": true,
+  "gate4_forward_reach": true,
+  "gate5_no_new_params": true,
+  "n_pass": 5,
+  "verdict": "PASS (5/5): ESD's parent action embeds a Starobinsky-plateau inflation attractor (Master Ch.15) yielding the single-field slow-roll predictions r = 12/N_e^2 ~ 3.3e-3 and n_s = 1 - 2/N_e ~ 0.967 at N_e = 60 (standard reheating window). The r prediction sits a factor ~11 below the current best 95% CL upper limit (BICEP/Keck BK18, r < 0.036) and ~32 below ACT DR4 + WMAP. The n_s prediction matches Planck 2018 (0.9649 +/- 0.0042) at 0.12 sigma. Forward falsifiability: LiteBIRD (sigma_r ~ 1e-3) reaches ~3 sigma at the ESD-predicted r; CMB-S4 (sigma_r ~ 5e-4) reaches 6.6 sigma; PICO concept reaches ~33 sigma. A future r < 1e-3 (5 sigma) at N_e in the 50-70 range falsifies the plateau anchor; r > 0.01 would also point to a different parent-action embedding. No new free parameters are introduced beyond the standard reheating e-fold window."
+}

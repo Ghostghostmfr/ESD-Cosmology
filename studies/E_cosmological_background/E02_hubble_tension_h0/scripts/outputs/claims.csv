@@ -1,0 +1,6 @@
+claim,value,target,units,metric,gate,verdict
+1. bridge inversion a0 -> H0,67.27968266641055,67.28,km/s/Mpc,rel_err = -4.717e-06,|rel_err| <= 5e-03,PASS
+2. Identity (C): 3 Om_DM+Om_b = (18/pi) Om_L^2 Om_m,0.847020980042131,0.8470209800421309,dimensionless,rel_diff = +1.311e-16,|rel_diff| <= 1e-04,PASS
+"3. h-blindness Thm 1 on {C1, C4, C7}",1.0785200905716501e-11,0.0,max |dR_i/dh|/|R_i|,"per-child = ['+1.08e-11', '+0.00e+00', '+0.00e+00']",max <= 1e-08,PASS
+4. combined 6-channel drift budget,0.120001407001,0.12,km/s/Mpc,gap_ratio = 47.3x required,budget <= 0.20,PASS
+5. predicted SH0ES Delta mu_host,0.18591601006751746,0.17,mag,abs_err = +0.016,|abs_err| <= 0.20,PASS

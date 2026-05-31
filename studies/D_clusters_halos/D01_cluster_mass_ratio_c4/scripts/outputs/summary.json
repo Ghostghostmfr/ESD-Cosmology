@@ -1,0 +1,117 @@
+{
+  "claims": [
+    {
+      "claim": "1a. C4 vs direct R_500c f_b (max pull)",
+      "value": 0.8146178042319965,
+      "target": 0.0,
+      "units": "sigma",
+      "metric": "3 R_500c samples (X-COP, Planck-SZ, CHEX-MATE)",
+      "gate": "max |pull| <= 2.0",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "1b. C4 vs R_200c extrapolations (max pull)",
+      "value": 2.5152294983980275,
+      "target": 0.0,
+      "units": "sigma",
+      "metric": "2 R_200c samples (model-dependent extrap.)",
+      "gate": "max |pull| <= 3.0",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. h-blindness of C4 (Thm 1)",
+      "value": 0.0,
+      "target": 0.0,
+      "units": "d ln (M_tot/M_b) / d h",
+      "metric": "M_tot/M_b = 7.4878",
+      "gate": "|dr/dh| <= 1e-12",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. cosmic asymptote f_b(u->inf) = Omega_b/Omega_m",
+      "value": 0.15865827120984669,
+      "target": 0.1586582713423674,
+      "units": "dimensionless",
+      "metric": "rel_err = -8.353e-10",
+      "gate": "|rel_err| <= 0.001",
+      "verdict": "PASS"
+    }
+  ],
+  "samples": [
+    {
+      "sample": "X-COP (12 nearby clusters)",
+      "radius_def": "R_500c",
+      "u_cl": 1.613645776683413,
+      "R_of_u": 1.123426283119928,
+      "fb_pred": 0.13465690683851583,
+      "fb_obs": 0.131,
+      "sigma": 0.005,
+      "pull": -0.7313813677031655,
+      "ref": "Eckert+ 2019, A&A 621, A40"
+    },
+    {
+      "sample": "X-COP extrapolated to R_200c",
+      "radius_def": "R_200c",
+      "u_cl": 0.6789335042875425,
+      "R_of_u": 1.9526759372666773,
+      "fb_pred": 0.12113092032201377,
+      "fb_obs": 0.146,
+      "sigma": 0.01,
+      "pull": 2.4869079677986226,
+      "ref": "Eckert+ 2019, A&A 621, A40"
+    },
+    {
+      "sample": "Planck SZ baryon census",
+      "radius_def": "R_500c",
+      "u_cl": 1.649928936159134,
+      "R_of_u": 1.1067046486082426,
+      "fb_pred": 0.13496079584655196,
+      "fb_obs": 0.126,
+      "sigma": 0.011,
+      "pull": -0.8146178042319965,
+      "ref": "Planck 2015 XXIV, A&A 594, A24"
+    },
+    {
+      "sample": "CHEX-MATE relaxed subset",
+      "radius_def": "R_500c",
+      "u_cl": 1.649928936159134,
+      "R_of_u": 1.1067046486082426,
+      "fb_pred": 0.13496079584655196,
+      "fb_obs": 0.135,
+      "sigma": 0.008,
+      "pull": 0.004900519181005869,
+      "ref": "CHEX-MATE Collaboration 2024, A&A 686, A185"
+    },
+    {
+      "sample": "XMM Cluster Outskirts Project (XCOP-extreme)",
+      "radius_def": "R_200c",
+      "u_cl": 0.8430475894509257,
+      "R_of_u": 1.7088588769054842,
+      "fb_pred": 0.12481724601922367,
+      "fb_obs": 0.155,
+      "sigma": 0.012,
+      "pull": 2.5152294983980275,
+      "ref": "Ettori+ 2019, A&A 621, A39"
+    }
+  ],
+  "h_blindness": {
+    "value": 7.487753507080589,
+    "dr_dh_rel": 0.0,
+    "h_blind": true
+  },
+  "cosmic": {
+    "f_b_asymp": 0.15865827120984669,
+    "f_b_cosmic": 0.1586582713423674,
+    "rel_err": -8.352587955313281e-10
+  },
+  "constants": {
+    "PHI": 1.618033988749895,
+    "Q": 0.5948105273504066,
+    "C_FLR": 0.5715870659509185,
+    "B_AMP": 15.944271909999163,
+    "S_NRM": 26.88854381999832,
+    "DM_OVER_B": 5.302854503198941,
+    "A0_SI": 1.2e-10
+  },
+  "fails": []
+}

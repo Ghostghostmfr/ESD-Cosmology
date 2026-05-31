@@ -1,0 +1,17 @@
+=== Study 04: a_0 derivation reproduction ===
+  Reproducing standalone paper:
+    a_0 = c H_0 sqrt((3 Omega_DM + Omega_b) / (8 pi))
+
+  ESD coefficient (paper, Planck mean):    0.18293  (published: 0.18288)  OK
+  ESD coefficient (framework, Identity B): 0.18358  (published: 0.18358)  OK
+
+  a_0 at Planck H_0 = 67.4 (paper mode):   1.1979e-10 m/s^2  (published: 1.1980e-10 m/s^2)  OK
+  a_0 at Planck H_0 = 67.4 (framework):    1.2022e-10 m/s^2  (framework locked)  OK
+  a_0 at SH0ES H_0 = 73.04 (framework):    1.3028e-10 m/s^2  (rel. to RAR: +8.56%)
+  Milgrom coincidence c H_0/(2 pi):        1.0422e-10 m/s^2
+
+  f_b best fit to RAR 1.20e-10:            0.3535  (published: 0.354)  OK
+  residual at f_b = 1/3:                   -0.18%  (published: -0.17%)  OK
+  residual at f_b = 1/2:                   +1.27%  (published: +1.26%)  OK
+
+  overall reproduction within tolerance: True

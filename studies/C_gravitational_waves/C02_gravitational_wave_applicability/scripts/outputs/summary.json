@@ -1,0 +1,56 @@
+{
+  "claims": [
+    {
+      "claim": "1. R(u) does NOT apply to GW propagation in vacuum",
+      "metric": "applicability axioms (A1),(A2) for GWs",
+      "value": "false",
+      "target": "must_be_false",
+      "gate": "R(u)_applies == False",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "2. c_GW = c (GW170817 multimessenger speed bound)",
+      "metric": "|c_GW - c| / c",
+      "value": "0",
+      "target": "<= 3e-15",
+      "gate": "<= 3e-15",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "3. LIGO standard-siren H_0 consistent with ESD-locked H_0",
+      "metric": "|H_0_Planck - H_0_LIGO_SS| / err_LIGO_SS",
+      "value": "0.22",
+      "target": "<= 2.0",
+      "gate": "<= 2.0 sigma",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "4. h-blindness of GW observables (Thm 1)",
+      "metric": "|c_GW(h_lo) - c_GW(h_hi)| / c",
+      "value": "0",
+      "target": "<= 1e-15",
+      "gate": "<= 1e-15",
+      "verdict": "PASS"
+    }
+  ],
+  "fails": [],
+  "applicability_GW": {
+    "A1_bound_system_locality": false,
+    "A2_acceleration_definedness": false,
+    "A3_closure_universality": true,
+    "Ru_applies": false,
+    "rationale": "A gravitational wave is a tensor perturbation h_{mu nu} of the background metric, propagating at c in vacuum via the linearized Einstein equations.  There is no localized massive subsystem and no associated g.  Both (A1) and (A2) fail; R(u) cannot dress the propagation."
+  },
+  "cGW_over_c": 1.0,
+  "GW170817": {
+    "observed_delay_s": 1.74,
+    "delay_err_s": 0.05,
+    "propagation_delay_s": 0.0,
+    "speed_bound": 3e-15,
+    "standard_siren_H0": {
+      "central": 65.69915221,
+      "lo": 54.74929350833333,
+      "hi": 101.07561878461539
+    }
+  }
+}
