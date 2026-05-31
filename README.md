@@ -325,7 +325,6 @@ esd-cosmology/
 ├── simulations/NN_<name>/       end-to-end numerical evolution (N-body, streams)
 ├── docker/                      shared base image
 ├── docs/                        replication guide
-├── visualizations/              local-only; .gitignored until promoted
 └── .github/workflows/           CI smoke tests
 ```
 
